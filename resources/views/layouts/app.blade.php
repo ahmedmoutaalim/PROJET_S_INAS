@@ -35,20 +35,22 @@
 
       .normal::after{
         content:'';
-          height:3px;
+          height:2.3px;
           background:#FF3838;
           display:block;
           width:30%;
           margin-top:4px;
-
-
+      }
+      .normal:hover{
+        color:#FF3838;
+        transition:  .5s;
       }
 
       .cool-link::after{
           content:'';
           display:block;
           width:0%;
-          height:3px;
+          height:2.3px;
           background:#FF3838;
           margin-top:4px;
           transition: width .5s;
