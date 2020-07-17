@@ -17,23 +17,23 @@
         }
         
 
-        .container{
+        .fachkar{
             margin-top:10px;
         }
-.parent-list{
+.samkar{
 
         display: inline-block;
         padding: 20px;
       }
 
-      li a{
+      .samkar a{
          
         
           font-size:15.6px;
           color:#757575;
       }
 
-      .normal::after{
+      .korbar::after{
         content:'';
           height:2.3px;
           background:#FF3838;
@@ -41,12 +41,12 @@
           width:30%;
           margin-top:4px;
       }
-      .normal:hover{
+      .korbar:hover{
         color:#FF3838;
         transition:  .5s;
       }
 
-      .cool-link::after{
+      .aanbar::after{
           content:'';
           display:block;
           width:0%;
@@ -55,22 +55,28 @@
           margin-top:4px;
           transition: width .5s;
       }
-      .cool-link:hover::after {
+      .aanbar:hover::after {
           width:20%;
           transition: width .5s;
          
       }
-      .cool-link:hover{
+      .aanbar:hover{
         transition:  .5s;
         color:#FF3838;
       }
 
-      .list-child{
+      .zanbar{
 
         float:left;
         background-color:#333333;
         color:#757575;
+        margin-top:20px;
+        display:none;
        
+      }
+      .zanbar:hover{
+        display:block;
+        margi
       }
 
      
@@ -86,25 +92,30 @@
 <button style="color: white; background-color:#FF3838 ;width:19%; font-size:17px; cursor:pointer; border:none; height:80px; margin-top:20px;">PRÉINSCRIPTON EN LIGNE </button>
 </div>
 
-<div class="container">
+<div class="fachkar">
 
-<li class="parent-list"> <a href="#" class="normal">ACCUEIL</a> </li>
-<li class="parent-list"> <a href="#" class="cool-link">PRESENTATION DE L’INAS</a>
-    <div class="list-child">
+<li class="samkar"> <a href="#" class="korbar">ACCUEIL</a> </li>
+<li class="samkar"> <a href="#" class="aanbar">PRESENTATION DE L’INAS</a>
+    <div class="zanbar">
      <ul>
-     <li>llkkk</li>
-     <li>socsokc</li>
-     <li>skcksc</li>
+     <li>PRESENTATION DE L’INAS</li>
+     <li>MOT DE DIRECTRICE</li>
+     <li>MISSION</li>
+     <li>HISTORIQUE</li>
+     <li>Instance de gouvernance </li>
+     <li>Filières</li>
+     <li>Deprtements</li>
+     <li>INAS EN CHIFFRES</li>
      </ul>
     
     </div>
  </li>
-<li class="parent-list"> <a href="#" class="cool-link">FORMATION</a> </li>
-<li class="parent-list"> <a href="#" class="cool-link">ACTUALITES</a></li>
-<li class="parent-list"> <a href="#" class="cool-link">ETUDES ET RECHERCHE</a> </li>
-<li class="parent-list"> <a href="#" class="cool-link">COOPERATION ET PARTENARIAT</a> </li>
-<li class="parent-list"> <a href="#" class="cool-link"> DOCUMENTATION</a></li>
-<li class="parent-list"> <a href="#" class="cool-link">ESPACE ENSEIGNANT</a> </li>
+<li class="samkar"> <a href="#" class="aanbar">FORMATION</a> </li>
+<li class="samkar"> <a href="#" class="aanbar">ACTUALITES</a></li>
+<li class="samkar"> <a href="#" class="aanbar">ETUDES ET RECHERCHE</a> </li>
+<li class="samkar"> <a href="#" class="aanbar">COOPERATION ET PARTENARIAT</a> </li>
+<li class="samkar"> <a href="#" class="aanbar"> DOCUMENTATION</a></li>
+<li class="samkar"> <a href="#" class="aanbar">ESPACE ENSEIGNANT</a> </li>
 
 </div>
     @yield('accueil')
