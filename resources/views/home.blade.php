@@ -10,16 +10,17 @@
 @endsection
 
 @section('menu')
-<div></div>
-<ul> 
-<li> <a href="#">ACCUEIL</a> </li>
-<li> <a href="#">PRESENTATION DE L’INAS</a> </li>
-<li> <a href="#">FORMATION</a> </li>
-<li> <a href="#">ACTUALITES</a></li>
-<li> <a href="#">ETUDES ET RECHERCHE</a> </li>
-<li> <a href="#">COOPERATION ET PARTENARIAT</a> </li>
-<li> <a href="#"> DOCUMENTATION</a></li>
-<li> <a href="#">ESPACE ENSEIGNANT</a> </li>
-</ul>
+<div class="container">
+
+<li> <a href="#" class="normal">ACCUEIL</a> </li>
+<li> <a href="#" class="cool-link">PRESENTATION DE L’INAS</a> </li>
+
+<li> <a href="#" class="cool-link">FORMATION</a> </li>
+<li> <a href="#" class="cool-link">ACTUALITES</a></li>
+<li> <a href="#" class="cool-link">ETUDES ET RECHERCHE</a> </li>
+<li> <a href="#" class="cool-link">COOPERATION ET PARTENARIAT</a> </li>
+<li> <a href="#" class="cool-link"> DOCUMENTATION</a></li>
+<li> <a href="#" class="cool-link">ESPACE ENSEIGNANT</a> </li>
+
 </div>
 @endsection
