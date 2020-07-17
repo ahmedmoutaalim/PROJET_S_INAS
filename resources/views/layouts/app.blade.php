@@ -20,7 +20,7 @@
         .container{
             margin-top:10px;
         }
-      li{
+.parent-list{
 
         display: inline-block;
         padding: 20px;
@@ -65,6 +65,13 @@
         color:#FF3838;
       }
 
+      .list-child{
+
+        float:left;
+        background-color:#333333;
+        color:#757575;
+       
+      }
 
      
       
@@ -74,8 +81,33 @@
 
 </head>
 <body>
-    @yield('content')
-    @yield('menu')
+<div style="display: flex; width: 100%;height: 120px; justify-content: space-between ;font-family: 'Work Sans', sans-serif; border-bottom:1.1px solid rgb(245,245,245); " >
+<img src="images/logo.png" style=" width:130px;cursor:pointer; height:110px ; margin-left:18px;">
+<button style="color: white; background-color:#FF3838 ;width:19%; font-size:17px; cursor:pointer; border:none; height:80px; margin-top:20px;">PRÉINSCRIPTON EN LIGNE </button>
+</div>
+
+<div class="container">
+
+<li class="parent-list"> <a href="#" class="normal">ACCUEIL</a> </li>
+<li class="parent-list"> <a href="#" class="cool-link">PRESENTATION DE L’INAS</a>
+    <div class="list-child">
+     <ul>
+     <li>llkkk</li>
+     <li>socsokc</li>
+     <li>skcksc</li>
+     </ul>
+    
+    </div>
+ </li>
+<li class="parent-list"> <a href="#" class="cool-link">FORMATION</a> </li>
+<li class="parent-list"> <a href="#" class="cool-link">ACTUALITES</a></li>
+<li class="parent-list"> <a href="#" class="cool-link">ETUDES ET RECHERCHE</a> </li>
+<li class="parent-list"> <a href="#" class="cool-link">COOPERATION ET PARTENARIAT</a> </li>
+<li class="parent-list"> <a href="#" class="cool-link"> DOCUMENTATION</a></li>
+<li class="parent-list"> <a href="#" class="cool-link">ESPACE ENSEIGNANT</a> </li>
+
+</div>
+    @yield('accueil')
 
 
     <script src="../../resources/js/main.js"></script>
