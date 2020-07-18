@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
     <title>INAS</title>
     <style>
         *{
@@ -14,26 +14,45 @@
             list-style:none;
             text-decoration:none;
             font-family: 'Work Sans', sans-serif;
+            
+           
+            
+        }
+      
+
+        .b{
+            color: white;
+             background-color:#FF3838 ;
+             width:19%;
+              font-size:17px;
+               cursor:pointer;
+                border:none;
+                 height:80px;
+                  margin-top:20px;
+                  border-bottom-left-radius:5px;
+                   border-top-left-radius:5px;
+        }
+
+        .b:hover{
+            background-color:rgb(200, 0, 0);opacity:.9;width:18.5%;
+            
+           
         }
         
 
-        .fachkar{
-            margin-top:10px;
-        }
-.samkar{
-
-        display: inline-block;
+      
+        .menu{
         padding: 20px;
-      }
+        }
 
-      .samkar a{
+      .menu_list a{
          
-        
+        transition:.5s;
           font-size:15.6px;
           color:#757575;
       }
 
-      .korbar::after{
+      .menu_list-accueil::after{
         content:'';
           height:2.3px;
           background:#FF3838;
@@ -41,46 +60,152 @@
           width:30%;
           margin-top:4px;
       }
-      .korbar:hover{
-        color:#FF3838;
-        transition:  .5s;
-      }
+    
 
-      .aanbar::after{
+      .menu_list-parentlist::after{
           content:'';
           display:block;
           width:0%;
           height:2.3px;
           background:#FF3838;
           margin-top:4px;
-          transition: width .5s;
+          transition: .5s;
+          position:relative;
       }
-      .aanbar:hover::after {
+      .menu_list-parentlist:hover::after {
           width:20%;
           transition: width .5s;
+          color:#FF3838;
          
       }
-      .aanbar:hover{
-        transition:  .5s;
-        color:#FF3838;
+
+      .menu_list-parentlist:hover{
+        transition: .5s;
+          color:#FF3838;
+      }
+    
+    
+    
+      .menu_list-childlist{
+          display:none;
+          
+          
+      }
+      .menu ul li{
+        display: inline-block;
+        padding:10px;
+        float :left;
+        
+        
       }
 
-      .zanbar{
+      .menu ul li:hover .menu_list-childlist{
 
-        float:left;
-        background-color:#333333;
-        color:#757575;
-        margin-top:20px;
-        display:none;
-       
-      }
-      .zanbar:hover{
         display:block;
-        margi
+        position :absolute;
+        background:#FF3838;
+        margin-top:9px;
+        border-bottom-left-radius:5px;
+        border-bottom-right-radius:5px;
+        margin-bottom:-30px;
+        margin-left:-15px;
+        z-index:10;
+        
+       
+
+      
+      }
+
+      
+
+      .menu ul li:hover .menu_list-childlist ul li{
+       width:200px;
+       padding:10px;
+       border-bottom:1px dotted #fff;
+       text-align:left;
+     
+       transition:.5s;
+      }
+      .menu ul li:hover .menu_list-childlist ul li:hover{
+    
+       border-bottom:1px dotted #757575;
+      
+      }
+     
+   .menu_list-childlist ul li {
+ 
+        margin:10px;
+        float: left;
+        clear: left;
+    
+        
+        
+      }
+      .menu_list-childlist ul li a:hover{
+        font-size:15px;
+        color:#fff;
       }
 
      
+
+    
+
+    
+     
       
+
+ 
+
+     
+      /* slider */
+        .sliderA{
+        width: 100%;
+        /* border:10px solid  #29a8e2; */
+        /* margin:80px auto; */
+        position: relative;
+        overflow: hidden;
+        }
+
+        .sliderA .left-slide,.sliderA .right-slide{
+          position: absolute;
+          height: 40px;
+          width: 40px;
+          background-color: #444444;
+          border-radius: 50%;
+          color:#ffffff;
+          font-size: 20px;
+          top:50%;
+          cursor: pointer;
+          margin-top: -20px;
+          text-align: center;
+          line-height: 40px;
+          
+        }
+        .sliderA .left-slide:hover,.sliderA .right-slide:hover{
+        box-shadow: 0px 0px 10px black;
+        background-color: #29a8e2;
+        }
+
+        .sliderA .left-slide{
+          left: 30px;
+        }
+        .sliderA .right-slide{
+          right: 30px;
+        }
+        .sliderA .slider-items .item img{
+          background:content-box;
+          /* height: 100%; */
+          display: block;
+        }
+
+        .sliderA .slider-items .item{
+          display: none;
+          position: relative;
+        }
+
+        .sliderA .slider-items .item.active{
+          display: block;
+        }
 
 
     </style>
@@ -89,39 +214,109 @@
 <body>
 <div style="display: flex; width: 100%;height: 120px; justify-content: space-between ;font-family: 'Work Sans', sans-serif; border-bottom:1.1px solid rgb(245,245,245); " >
 <img src="images/logo.png" style=" width:130px;cursor:pointer; height:110px ; margin-left:18px;">
-<button style="color: white; background-color:#FF3838 ;width:19%; font-size:17px; cursor:pointer; border:none; height:80px; margin-top:20px;">PRÉINSCRIPTON EN LIGNE </button>
+<button class="b">PRÉINSCRIPTON EN LIGNE </button>
 </div>
 
-<div class="fachkar">
-
-<li class="samkar"> <a href="#" class="korbar">ACCUEIL</a> </li>
-<li class="samkar"> <a href="#" class="aanbar">PRESENTATION DE L’INAS</a>
-    <div class="zanbar">
+<div class="menu">
+<ul>
+<li class="menu_list"> <a href="#" class="menu_list-accueil">ACCUEIL</a> </li>
+<li class="menu_list"> <a href="#" class="menu_list-parentlist">PRESENTATION DE L’INAS</a>
+    <div class="menu_list-childlist">
      <ul>
-     <li>PRESENTATION DE L’INAS</li>
-     <li>MOT DE DIRECTRICE</li>
-     <li>MISSION</li>
-     <li>HISTORIQUE</li>
-     <li>Instance de gouvernance </li>
-     <li>Filières</li>
-     <li>Deprtements</li>
-     <li>INAS EN CHIFFRES</li>
+     <li> <a href="#">PRESENTATION DE L’INAS</a> </li>
+     <li> <a href="#">MOT DE DIRECTRICE</a> </li>
+     <li> <a href="#">MISSION</a> </li>
+     <li> <a href="#">HISTORIQUE</a> </li>
+     <li> <a href="#">Instance de gouvernance</a></li>
+     <li> <a href="#">Filières</a></li>
+     <li> <a href="#">Deprtements</a> </li>
+     <li> <a href="#">INAS EN CHIFFRES</a></li>
      </ul>
     
     </div>
  </li>
-<li class="samkar"> <a href="#" class="aanbar">FORMATION</a> </li>
-<li class="samkar"> <a href="#" class="aanbar">ACTUALITES</a></li>
-<li class="samkar"> <a href="#" class="aanbar">ETUDES ET RECHERCHE</a> </li>
-<li class="samkar"> <a href="#" class="aanbar">COOPERATION ET PARTENARIAT</a> </li>
-<li class="samkar"> <a href="#" class="aanbar"> DOCUMENTATION</a></li>
-<li class="samkar"> <a href="#" class="aanbar">ESPACE ENSEIGNANT</a> </li>
-
+<li class="menu_list"> <a href="#" class="menu_list-parentlist">FORMATION</a>
+<div class="menu_list-childlist">
+<ul>
+<li>  <a href="#">FORMATION INITIALE</a> </li>
+<li>  <a href="#">FORMATION CONTINUE</a> </li>
+<li> <a href="#">ADMISSION INSCRIPTION</a> </li>
+</ul>
 </div>
+ </li>
+<li class="menu_list"> <a href="#" class="menu_list-parentlist"">ACTUALITES</a>
+<div class="menu_list-childlist" >
+<ul>
+<li><a href="#">AGENDA</a> </li>
+<li> <a href="#">EVENEMENTS</a> </li>
+<li><a href="#">ACTIVITES</a></li>
+<li><a href="#">AVIS</a></li>
+<li><a href="#">NEWS</a></li>
+<li><a href="#">ESPACE PRESSE</a></li>
+</ul>
+</div>
+</li>
+<li class="menu_list"> <a href="#" class="menu_list-parentlist">ETUDES ET RECHERCHE</a> 
+<div class="menu_list-childlist" >
+<ul>
+<li><a href="#">PRESENTATION</a> </li>
+<li> <a href="#">COLLOQUES</a> </li>
+<li><a href="#">ETUDES & PUBLICATIONS</a></li>
+<li><a href="#">Stratégie et développement</a></li>
+<li><a href="#">Laboratoires de recherche/a></li>
+<li><a href="#">Évènements scientifiques</a></li>
+<li><a href="#">Centre d’Études doctorale</a></li>
+<li><a href="#">Revue scientifique</a></li>
+</ul>
+</div>
+</li>
+<li class="menu_list"> <a href="#" class="menu_list-parentlist">COOPERATION ET PARTENARIAT</a> 
+<div class="menu_list-childlist" >
+<ul>
+<li><a href="#">PARTENARIAT ACADEMIQUE</a> </li>
+<li> <a href="#">PARTENARIAT PROFESSIONNEL</a> </li>
+<li><a href="#">Mobilité</a></li>
+</ul>
+</div>
+</li>
+<li class="menu_list"> <a href="#" class="menu_list-parentlist"> DOCUMENTATION</a>
+<div class="menu_list-childlist" >
+<ul>
+<li><a href="#">BIBLIOTHEQUE NUMERIQUE</a> </li>
+<li> <a href="#">MEDIATHEQUE</a> </li>
+<li><a href="#">ANNUAIRE</a></li>
+</ul>
+</div>
+
+</li>
+<li class="menu_list"> <a href="#" class="menu_list-parentlist">ESPACE ENSEIGNANT</a> 
+<div class="menu_list-childlist" >
+<ul>
+<li><a href="#">Accès Elearning</a> </li>
+</ul>
+</div>
+</li>
+<li class="menu_list"> <a href="#" class="menu_list-parentlist">ESPACE ETUDIANT</a>
+<div class="menu_list-childlist" class="menu_list-exeption" >
+<ul>
+<li><a href="#">AVIS AUX ETUDIANTS</a> </li>
+<li><a href="#">STAGES & PROJETS</a> </li>
+<li><a href="#">Accès Elearning</a> </li>
+<li><a href="#">ACTIVITES</a> </li>
+<li><a href="#">REGLEMENT INTERIEUR</a> </li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+
     @yield('accueil')
 
 
     <script src="../../resources/js/main.js"></script>
-    
+    <!-- <script src="{{ asset('js/slider.js')}}"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
