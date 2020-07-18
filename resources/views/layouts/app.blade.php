@@ -17,6 +17,10 @@
                    
             
         }
+        body{
+          list-style:none;
+            text-decoration:none;
+        }
       
 
         .b{
@@ -30,26 +34,32 @@
                   margin-top:20px;
                   border-bottom-left-radius:5px;
                    border-top-left-radius:5px;
+                  
+                  
         }
 
         .b:hover{
             background-color:rgb(200, 0, 0);opacity:.9;width:18.5%;
-            
+          
            
         }
         
 
       
         .menu{
-        padding: 20px 10px;
+        
         width: 100%;
+        padding:10px;
+        margin-bottom:25px;
+       
+
         }
 
       .menu_list a{
          
         transition:.5s;
           font-size:15.6px;
-          color:#757575;
+          color:black;
       }
 
       .menu_list-accueil::after{
@@ -60,7 +70,14 @@
           width:30%;
           margin-top:4px;
       }
-    
+  
+    .menu_list-accueil:hover{
+          transition:  .5s;
+          color:#FF3838;
+          text-decoration:none;
+
+
+    }
 
       .menu_list-parentlist::after{
           content:'';
@@ -76,12 +93,14 @@
           width:20%;
           transition: width .5s;
           color:#FF3838;
+          text-decoration:none;
          
       }
 
       .menu_list-parentlist:hover{
         transition: .5s;
           color:#FF3838;
+          text-decoration:none;
       }
     
     
@@ -98,13 +117,14 @@
         float :left;
         
         
+        
       }
 
       .menu ul li:hover .menu_list-childlist{
-
+       
         display:block;
         position :absolute;
-        background:#FF3838;
+        background:#E82530;
         margin-top:9px;
         border-bottom-left-radius:5px;
         border-bottom-right-radius:5px;
@@ -126,13 +146,13 @@
        padding:10px;
        border-bottom:1px dotted #fff;
        text-align:left;
-      
-     
        transition:.5s;
       }
       .menu ul li:hover .menu_list-childlist ul li:hover{
     
-       border-bottom:1px dotted #757575;
+       border-bottom:1px dotted black;
+    
+       
       
       }
      
@@ -149,11 +169,12 @@
       .menu_list-childlist ul li a:hover{
         font-size:15px;
         color:#fff;
+        text-decoration:none;
         
       }
 
      
-  
+ 
     
 
     
