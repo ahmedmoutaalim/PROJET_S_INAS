@@ -88,6 +88,7 @@
     
       .menu_list-childlist{
           display:none;
+     
           
           
       }
@@ -110,12 +111,14 @@
         margin-bottom:-30px;
         margin-left:-15px;
         z-index:10;
-        
-       
-
       
       }
 
+
+      .menu ul li:hover .menu_list-exeption{
+        margin-left:-80px;
+
+      }
       
 
       .menu ul li:hover .menu_list-childlist ul li{
@@ -123,6 +126,7 @@
        padding:10px;
        border-bottom:1px dotted #fff;
        text-align:left;
+      
      
        transition:.5s;
       }
@@ -137,6 +141,7 @@
         margin:10px;
         float: left;
         clear: left;
+      
     
         
         
@@ -144,10 +149,11 @@
       .menu_list-childlist ul li a:hover{
         font-size:15px;
         color:#fff;
+        
       }
 
      
-
+  
     
 
     
@@ -207,6 +213,13 @@
           display: block;
         }
 
+/---------------------------------section_presontation----------------------------/
+.flex{
+  display: flex;
+  
+ 
+}
+
 
     </style>
 
@@ -235,7 +248,9 @@
     
     </div>
  </li>
+
 <li class="menu_list"> <a href="#" class="menu_list-parentlist">FORMATION</a>
+
 <div class="menu_list-childlist">
 <ul>
 <li>  <a href="#">FORMATION INITIALE</a> </li>
@@ -243,6 +258,7 @@
 <li> <a href="#">ADMISSION INSCRIPTION</a> </li>
 </ul>
 </div>
+
  </li>
 <li class="menu_list"> <a href="#" class="menu_list-parentlist"">ACTUALITES</a>
 <div class="menu_list-childlist" >
@@ -263,13 +279,14 @@
 <li> <a href="#">COLLOQUES</a> </li>
 <li><a href="#">ETUDES & PUBLICATIONS</a></li>
 <li><a href="#">Stratégie et développement</a></li>
-<li><a href="#">Laboratoires de recherche/a></li>
+<li><a href="#">Laboratoires de recherche</a></li>
 <li><a href="#">Évènements scientifiques</a></li>
 <li><a href="#">Centre d’Études doctorale</a></li>
 <li><a href="#">Revue scientifique</a></li>
 </ul>
 </div>
 </li>
+
 <li class="menu_list"> <a href="#" class="menu_list-parentlist">COOPERATION ET PARTENARIAT</a> 
 <div class="menu_list-childlist" >
 <ul>
@@ -279,6 +296,7 @@
 </ul>
 </div>
 </li>
+
 <li class="menu_list"> <a href="#" class="menu_list-parentlist"> DOCUMENTATION</a>
 <div class="menu_list-childlist" >
 <ul>
@@ -289,6 +307,7 @@
 </div>
 
 </li>
+
 <li class="menu_list"> <a href="#" class="menu_list-parentlist">ESPACE ENSEIGNANT</a> 
 <div class="menu_list-childlist" >
 <ul>
@@ -297,7 +316,7 @@
 </div>
 </li>
 <li class="menu_list"> <a href="#" class="menu_list-parentlist">ESPACE ETUDIANT</a>
-<div class="menu_list-childlist" class="menu_list-exeption" >
+<div class="menu_list-childlist menu_list-exeption" >
 <ul>
 <li><a href="#">AVIS AUX ETUDIANTS</a> </li>
 <li><a href="#">STAGES & PROJETS</a> </li>
@@ -310,7 +329,9 @@
 </ul>
 </div>
 
+
     @yield('accueil')
+    @yield('présontation')
 
 
     <script src="../../resources/js/main.js"></script>
