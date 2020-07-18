@@ -169,7 +169,7 @@
           height: 550px;
         }
 
-/---------------------------------section_presontation----------------------------/
+/*---------------------------------section_presontation----------------------------*/
 .flex{
   display: flex;
   
@@ -192,7 +192,7 @@
 <li class="menu_list"> <a href="#" class="menu_list-parentlist">PRESENTATION DE L’INAS</a>
     <div class="menu_list-childlist">
      <ul>
-      <li> <a href="#">PRESENTATION DE L’INAS</a> </li>
+      <li> <a href="pres_inas">PRESENTATION DE L’INAS</a> </li>
       <li> <a href="#">MOT DE DIRECTRICE</a> </li>
       <li> <a href="#">MISSION</a> </li>
       <li> <a href="#">HISTORIQUE</a> </li>
