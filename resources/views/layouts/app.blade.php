@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>INAS</title>
     <style>
         *{
@@ -14,8 +14,7 @@
             list-style:none;
             text-decoration:none;
             font-family: 'Work Sans', sans-serif;
-            
-           
+                   
             
         }
       
@@ -42,7 +41,8 @@
 
       
         .menu{
-        padding: 20px;
+        padding: 20px 10px;
+        width: 100%;
         }
 
       .menu_list a{
@@ -158,53 +158,9 @@
 
      
       /* slider */
-        .sliderA{
-        width: 100%;
-        /* border:10px solid  #29a8e2; */
-        /* margin:80px auto; */
-        position: relative;
-        overflow: hidden;
-        }
-
-        .sliderA .left-slide,.sliderA .right-slide{
-          position: absolute;
-          height: 40px;
-          width: 40px;
-          background-color: #444444;
-          border-radius: 50%;
-          color:#ffffff;
-          font-size: 20px;
-          top:50%;
-          cursor: pointer;
-          margin-top: -20px;
-          text-align: center;
-          line-height: 40px;
-          
-        }
-        .sliderA .left-slide:hover,.sliderA .right-slide:hover{
-        box-shadow: 0px 0px 10px black;
-        background-color: #29a8e2;
-        }
-
-        .sliderA .left-slide{
-          left: 30px;
-        }
-        .sliderA .right-slide{
-          right: 30px;
-        }
-        .sliderA .slider-items .item img{
-          background:content-box;
-          /* height: 100%; */
-          display: block;
-        }
-
-        .sliderA .slider-items .item{
-          display: none;
-          position: relative;
-        }
-
-        .sliderA .slider-items .item.active{
-          display: block;
+        .slider .slider-items .item img{
+          width: 100%;
+          height: 550px;
         }
 
 
@@ -223,14 +179,14 @@
 <li class="menu_list"> <a href="#" class="menu_list-parentlist">PRESENTATION DE L’INAS</a>
     <div class="menu_list-childlist">
      <ul>
-     <li> <a href="#">PRESENTATION DE L’INAS</a> </li>
-     <li> <a href="#">MOT DE DIRECTRICE</a> </li>
-     <li> <a href="#">MISSION</a> </li>
-     <li> <a href="#">HISTORIQUE</a> </li>
-     <li> <a href="#">Instance de gouvernance</a></li>
-     <li> <a href="#">Filières</a></li>
-     <li> <a href="#">Deprtements</a> </li>
-     <li> <a href="#">INAS EN CHIFFRES</a></li>
+      <li> <a href="#">PRESENTATION DE L’INAS</a> </li>
+      <li> <a href="#">MOT DE DIRECTRICE</a> </li>
+      <li> <a href="#">MISSION</a> </li>
+      <li> <a href="#">HISTORIQUE</a> </li>
+      <li> <a href="#">Instance de gouvernance</a></li>
+      <li> <a href="#">Filières</a></li>
+      <li> <a href="#">Deprtements</a> </li>
+      <li> <a href="#">INAS EN CHIFFRES</a></li>
      </ul>
     
     </div>
