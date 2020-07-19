@@ -22,3 +22,9 @@ Route::get('/', function () {
 Route::get('/pres_inas', function () {
     return view('pres_inas');
 });
+Route::get('/mot_dir', function () {
+    return view('mot_dir');
+});
+Route::get('/miss_inas', function () {
+    return view('miss_inas');
+});
