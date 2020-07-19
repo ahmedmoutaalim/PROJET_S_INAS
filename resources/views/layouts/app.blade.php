@@ -22,8 +22,8 @@
     <div class="menu_list-childlist">
      <ul>
       <li> <a href="pres_inas">PRESENTATION DE L’INAS</a> </li>
-      <li> <a href="#">MOT DE DIRECTRICE</a> </li>
-      <li> <a href="#">MISSION</a> </li>
+      <li> <a href="mot_dir">MOT DE DIRECTRICE</a> </li>
+      <li> <a href="miss_inas">MISSION</a> </li>
       <li> <a href="#">HISTORIQUE</a> </li>
       <li> <a href="#">Instance de gouvernance</a></li>
       <li> <a href="#">Filières</a></li>
