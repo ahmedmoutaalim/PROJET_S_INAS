@@ -183,7 +183,80 @@ text-decoration:none;
 
 /*---------------------------------section_presontation----------------------------*/
 .flex{
-display: flex;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto  1fr 1fr ;
+    grid-template-areas: "flex_firstText flex_secondText"
+                          "flex_imgs flex_imgs"        
+                          "flex_liens flex_liens" ;                    ;
+    
+    grid-gap:50px;
+   
+    align-self:center;
+    width:95%;
+    margin:  auto;
+    margin-top:3%;
+    height: calc(100vh - 10px);
+    
+   
+
+}
+
+.flex_firstText{
+    grid-area:flex_firstText ;
+}
+
+.flex_firstText-title , .flex_secondText-title{
+
+ font-weight:bolder;
+ font-size:32px;
+ color:#333333;
+}
+
+.flex_firstText-content , .flex_secondText-content{
+
+    color:#757575;
+    line-height: 34px;
+    font-weight: 600;
+    
+}
+.flex_secondText{
+
+    grid-area:flex_secondText ;
+  
+   
+}
+
+.flex_imgs{
+
+    grid-area:flex_imgs ;
+    height: max-content;
+    display: block;
+    
+}
+
+.flex_imgs-self{
+    margin: 50px;
+}
+
+
+.flex_liens{
+    grid-area:flex_liens ;
+   
+}
+.flex_liens h1{
+   color:#333333;
+   font-weight: bolder;
+   margin-bottom: 30px;
+   
+}
+
+.flex_liens img{
+
+    margin-left: 50px;
 
 
 }
+
+
