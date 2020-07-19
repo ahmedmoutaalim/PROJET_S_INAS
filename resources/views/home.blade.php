@@ -28,10 +28,10 @@
 
 @section('présontation')
 
-<div style="display:flex;">
+<div style="display:flex; justify-content: space-around;  ">
 
      <div class='flex_firstText'>
-         <h1 class='flex_firstText-title'>PRÉSENTATION DE L’INAS</h1>
+         <h1 style=" color:#333333;font-weight:large;">PRÉSENTATION DE L’INAS</h1>
            <p class='flex_firstText-content'>L’Institut National de l’Action Sociale est un établissement 
                                            d’enseignement supérieur ne relevant pas des universités,
                                            crée en 1981 par l’autorité gouvernementale chargée des
