@@ -50,7 +50,8 @@ margin-bottom:25px;
  
 transition:.5s;
   font-size:15.6px;
-  color:black;
+ font-weight: bolder;
+ color:#757575;
 }
 
 .menu_list-accueil::after{
@@ -105,7 +106,7 @@ transition: .5s;
 .menu ul li{
 display: inline-block;
 padding:10px;
-float :left;
+float: left;
 
 
 
@@ -157,6 +158,10 @@ clear: left;
 
 
 }
+.menu_list-childlist ul li a{
+
+     color: BLACK;
+    }
 .menu_list-childlist ul li a:hover{
 font-size:15px;
 color:#fff;
@@ -197,7 +202,7 @@ text-decoration:none;
     width:95%;
     margin:  auto;
     margin-top:3%;
-    height: calc(100vh - 10px);
+   
     
    
 
@@ -231,7 +236,7 @@ text-decoration:none;
 .flex_imgs{
 
     grid-area:flex_imgs ;
-    height: max-content;
+  
     display: block;
     
 }
@@ -260,3 +265,119 @@ text-decoration:none;
 }
 
 
+
+
+/* FOOTER */
+
+
+.footer{
+   
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  1fr 1fr 1fr ;
+    grid-template-areas: "footer_links"
+                          "footer_linkssecond"
+                          "footer_fond";
+    
+    background-color: #303542;  
+    height: 50vh;
+                   
+   
+
+}
+
+.footer_links  {
+
+    grid-area:footer_links;
+    margin: auto;   
+    width: 80%;
+    
+    
+    
+}
+
+.footer_links a{
+
+  display: inline-table;
+  text-decoration: none;  
+  margin: 50px;
+ 
+}
+
+.footer_linkssecond{
+
+  grid-area:footer_linkssecond;
+  
+    margin: auto;   
+    width: 80%;
+   
+
+}
+
+.footer_linkssecond a{
+  text-decoration: none;  
+  margin: 50px;
+  display: inline-table;
+  color: #fff;
+  font-weight: bolder;
+
+}
+
+.footer_linkssecond a:hover{
+
+  color:darkgray;
+  
+ }
+
+
+.footer_links a{
+
+
+  text-decoration: none;  
+  margin: 50px;
+  color: #fff;
+  font-weight: bolder;
+ 
+}
+.footer_links a:hover{
+
+ color:darkgray;
+ 
+}
+
+.footer_links-hover::after{
+ content: '';
+ display: block;
+ width:0;
+ height: 2px;
+ background: #FF3838;
+ transition: width .3s;
+ 
+}
+
+.footer_links-hover:hover::after{
+
+  width: 100%;
+  transition: width .3s;
+}
+
+.footer_fond{
+    grid-area:footer_fond;
+  
+    margin: auto;     
+}
+
+hr{
+  border-color:#282c35 ;
+  height: 1px;
+  width: 100%;
+
+}
+
+.endFooter{
+
+    color:#747D95;
+    margin-bottom: -80px;
+    margin-top: -40px;
+    
+}
