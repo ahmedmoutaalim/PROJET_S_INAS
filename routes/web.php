@@ -28,3 +28,15 @@ Route::get('/mot_dir', function () {
 Route::get('/miss_inas', function () {
     return view('miss_inas');
 });
+Route::get('/historique', function () {
+    return view('historique');
+});
+Route::get('/les-instances-de-gouvernance', function () {
+    return view('instances_gouvernance');
+});
+Route::get('/filiere', function () {
+    return view('filiére');
+});
+Route::get('/les-departement', function () {
+    return view('departement');
+});
