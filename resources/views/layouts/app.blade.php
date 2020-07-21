@@ -7,7 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>INAS</title>
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/globle.css')}}">
+  
+    <!-- MDB icon -->
+ 
+    
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" href="css/mdb.min.css">
+ 
+    
 </head>
 <body>
 <div style="display: flex; width: 100%;height: 120px; justify-content: space-between ;font-family: 'Work Sans', sans-serif; border-bottom:1.1px solid rgb(245,245,245); " >
@@ -113,12 +122,206 @@
 </li>
 </ul>
 </div>
+
+
     @yield('accueil')
     @yield('présontation')
 
+<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto">
+
+        <!-- Content -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
+        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+          consectetur
+          adipisicing elit.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">PRESENTATION DE L’INAS</h5>
+
+        <ul class="list-unstyled ">
+        <li>
+            <a class="footer_links-hover" href="#!">PRESENTATION DE L’INAS</a>
+          </li>
+          <li>
+            <a  class="footer_links-hover" href="#!">FORMATION</a>
+          </li>
+          <li>
+            <a  class="footer_links-hover" href="#!">ETUDES ET RECHERCHE</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">DOCUMENTATION</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">FORMATION </h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a class="footer_links-hover"   href="#!">FORMATION CONTINUE</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">AGENDA</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">EVENEMENTS</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">ACTIVITES</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">AVIS</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">NEWS</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">ESPACE PRESSE</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
 
 
-    
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Etude et recherche</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a class="footer_links-hover" href="#!">PRESENTATION</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">COLLOQUES</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">ETUDES & PUBLICATIONS</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">Stratégie et développement</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">Laboratoires de recherche</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">Évènements scientifiques</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">Centre d’Études doctorale</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">Revue scientifique</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">BIBLIOTHEQUE NUMERIQUE</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">MEDIATHEQUE</a>
+          </li>
+        
+          <li>
+            <a class="footer_links-hover" href="#!">ANNUAIRE</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <hr>
+
+  <!-- Call to action -->
+  <ul class="list-unstyled list-inline text-center py-2">
+    <li class="list-inline-item">
+      <h5 class="mb-1">Register for free</h5>
+    </li>
+    <li class="list-inline-item">
+      <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+    </li>
+  </ul>
+  <!-- Call to action -->
+
+  <hr>
+
+  <!-- Social buttons -->
+  <ul class="list-unstyled list-inline text-center">
+    <li class="list-inline-item">
+      <a class="btn-floating btn-fb mx-1">
+        <i class="fab fa-facebook-f"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-tw mx-1">
+        <i class="fab fa-twitter"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-gplus mx-1">
+        <i class="fab fa-google-plus-g"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-li mx-1">
+        <i class="fab fa-linkedin-in"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-dribbble mx-1">
+        <i class="fab fa-dribbble"> </i>
+      </a>
+    </li>
+  </ul>
+  <!-- Social buttons -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Institut National de l'Action Sociale 
+        (INAS) | Ministère de la solidarité de la femme 
+        de la famille et du développement social au Maroc
+    <a href="https:// inastanger.com/"> inastanger.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+<!--     
  <div class="footer">
     <div class="footer_links">
        <a class="footer_links-hover"  href="#">PRESENTATION DE L’INAS</a>
@@ -131,18 +334,18 @@
     <a class="footer_links-hover" href="#">ACTUALITES</a>
        <a class="footer_links-hover" href="#">COOPERATION ET PARTENARIAT</a>
        <a class="footer_links-hover" href="#">Liens Utiles</a>
-
+       <hr>
     </div>   
     
     <div class="footer_fond">
-    <hr>
+    
 
       <p class="endFooter">© 2020 Institut National de l'Action Sociale 
         (INAS) | Ministère de la solidarité de la femme 
         de la famille et du développement social au Maroc</p>
 
     </div>
- </div>   
+ </div>    -->
 
 
     <!-- <script src="../../resources/js/main.js"></script>
