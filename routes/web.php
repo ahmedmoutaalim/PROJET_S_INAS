@@ -40,3 +40,6 @@ Route::get('/filiere', function () {
 Route::get('/les-departement', function () {
     return view('departement');
 });
+Route::get('/inas-en-chiffres', function () {
+    return view('chiffres');
+});

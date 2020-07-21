@@ -28,7 +28,7 @@
       <li> <a href="les-instances-de-gouvernance">Instance de gouvernance</a></li>
       <li> <a href="filiere">Filières</a></li>
       <li> <a href="les-departement">Deprtements</a> </li>
-      <li> <a href="#">INAS EN CHIFFRES</a></li>
+      <li> <a href="inas-en-chiffres">INAS EN CHIFFRES</a></li>
      </ul>
     
     </div>
