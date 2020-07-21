@@ -33,10 +33,10 @@
       <li> <a href="pres_inas">PRESENTATION DE L’INAS</a> </li>
       <li> <a href="mot_dir">MOT DE DIRECTRICE</a> </li>
       <li> <a href="miss_inas">MISSION</a> </li>
-      <li> <a href="#">HISTORIQUE</a> </li>
-      <li> <a href="#">Instance de gouvernance</a></li>
-      <li> <a href="#">Filières</a></li>
-      <li> <a href="#">Deprtements</a> </li>
+      <li> <a href="historique">HISTORIQUE</a> </li>
+      <li> <a href="les-instances-de-gouvernance">Instance de gouvernance</a></li>
+      <li> <a href="filiere">Filières</a></li>
+      <li> <a href="les-departement">Deprtements</a> </li>
       <li> <a href="#">INAS EN CHIFFRES</a></li>
      </ul>
     
@@ -350,8 +350,8 @@
 
     <!-- <script src="../../resources/js/main.js"></script>
     <!-- <script src="{{ asset('js/slider.js')}}"></script> -->
-    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
 </body>
 </html>
