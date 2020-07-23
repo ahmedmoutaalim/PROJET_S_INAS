@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('home');
 });
 Route::get('/pres_inas', function () {
@@ -40,3 +40,18 @@ Route::get('/filiere', function () {
 Route::get('/les-departement', function () {
     return view('departement');
 });
+Route::get('/formation_initiale', function () {
+    return view('formation_initiale');
+});
+Route::get('/formation_continue', function () {
+    return view('formation_continue');
+});
+Route::get('/admission', function () {
+    return view('admission');
+});
+
+
+
+
+
+
