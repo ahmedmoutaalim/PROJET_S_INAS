@@ -54,13 +54,7 @@ Route::get('/admission', function () {
 });
 Route::get('/inas-en-chiffres', function () {
     return view('chiffres');
-    
+});
 Route::get('/inscription', function () {
     return view('inscri');
 });
-
-
-
-
-
-
