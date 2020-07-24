@@ -49,6 +49,9 @@ Route::get('/formation_continue', function () {
 Route::get('/admission', function () {
     return view('admission');
 });
+Route::get('/inscription', function () {
+    return view('inscri');
+});
 
 
 

@@ -21,7 +21,7 @@
 <body>
 <div style="display: flex; width: 100%;height: 120px; justify-content: space-between ;font-family: 'Work Sans', sans-serif; border-bottom:1.1px solid rgb(245,245,245); " >
 <img src="images/logo.png" style=" width:130px;cursor:pointer; height:110px ; margin-left:18px;">
-<button class="b">PRÉINSCRIPTON EN LIGNE </button>
+<button class="b"><a href="inscription" class="text-light"> PRÉINSCRIPTON EN LIGNE </a></button>
 </div>
 
 <div class="menu">
