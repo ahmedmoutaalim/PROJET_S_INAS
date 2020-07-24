@@ -52,6 +52,9 @@ Route::get('/formation_continue', function () {
 Route::get('/admission', function () {
     return view('admission');
 });
+Route::get('/inas-en-chiffres', function () {
+    return view('chiffres');
+    
 Route::get('/inscription', function () {
     return view('inscri');
 });
