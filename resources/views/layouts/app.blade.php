@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>INAS</title>
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/bb.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css')}}">
   
    
  
@@ -26,7 +26,7 @@
 
 <div class="menu">
 <ul>
-<li class="menu_list"> <a href="home" class="menu_list-accueil">ACCUEIL</a> </li>
+<li class="menu_list"> <a href="{{url('/homeس')}}" class="menu_list-accueil">ACCUEIL</a> </li>
 <li class="menu_list"> <a href="#" class="menu_list-parentlist">PRESENTATION DE L’INAS</a>
     <div class="menu_list-childlist">
      <ul>
