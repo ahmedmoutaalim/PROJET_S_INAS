@@ -26,7 +26,7 @@
 
 <div class="menu">
 <ul>
-<li class="menu_list"> <a href="{{url('/homeس')}}" class="menu_list-accueil">ACCUEIL</a> </li>
+<li class="menu_list"> <a href="{{url('interface')}}" class="menu_list-accueil">ACCUEIL</a> </li>
 <li class="menu_list"> <a href="#" class="menu_list-parentlist">PRESENTATION DE L’INAS</a>
     <div class="menu_list-childlist">
      <ul>
@@ -105,7 +105,7 @@
 <li class="menu_list"> <a href="#" class="menu_list-parentlist">ESPACE ENSEIGNANT</a> 
 <div class="menu_list-childlist" >
 <ul>
-<li><a href="#">Accès Elearning</a> </li>
+<li><a href="home">Accès Elearning</a> </li>
 </ul>
 </div>
 </li>
@@ -114,7 +114,7 @@
 <ul>
 <li><a href="#">AVIS AUX ETUDIANTS</a> </li>
 <li><a href="#">STAGES & PROJETS</a> </li>
-<li><a href="#">Accès Elearning</a> </li>
+<li><a href="home">Accès Elearning</a> </li>
 <li><a href="#">ACTIVITES</a> </li>
 <li><a href="#">REGLEMENT INTERIEUR</a> </li>
 </ul>
@@ -126,6 +126,9 @@
 
     @yield('accueil')
     @yield('présontation')
+    @yield('content')
+    
+
 
 <!-- Footer -->
 <footer class="page-footer font-small stylish-color-dark pt-4 mode">
