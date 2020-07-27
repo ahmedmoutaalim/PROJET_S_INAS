@@ -17,10 +17,10 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::get('/', function () {
-    return view('home');
+    return view('interface');
 });
-Route::get('/home', function () {
-    return view('home');
+Route::get('/interface', function () {
+    return view('interface');
 });
 Route::get('/pres_inas', function () {
     return view('pres_inas');
@@ -62,3 +62,9 @@ Route::get('/inscription', function () {
 Route::get('/inscription', function () {
     return view('inscri');
 });
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
