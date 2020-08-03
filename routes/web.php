@@ -59,10 +59,6 @@ Route::get('/inas-en-chiffres', function () {
 Route::get('/inscription', function () {
     return view('inscri');
 });
-Route::get('/inscription', function () {
-    return view('inscri');
-});
-
 
 
 Auth::routes();

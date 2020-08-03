@@ -1,11 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div style=" margin-bottom:3%;" class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+                <div class="card-header">  
+                     <img  src="http://inaselearning.com/pluginfile.php/1/core_admin/logo/0x200/1587729412/logo.jpg" class="img-fluid" title="INAS TANGER" alt="INAS TANGER">
+                </div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">

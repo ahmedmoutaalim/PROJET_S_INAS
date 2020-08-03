@@ -21,6 +21,7 @@
 <body>
 <div style="display: flex; width: 100%;height: 120px; justify-content: space-between ;font-family: 'Work Sans', sans-serif; border-bottom:1.1px solid rgb(245,245,245); " >
 <img src="images/logo.png" style=" width:130px;cursor:pointer; height:110px ; margin-left:18px;">
+<img  style='display:block; margin:auto; margin-left:20%;' src="https://inastanger.ma/wp-content/uploads/2020/07/imgo-1.png">
 <button class="b"><a href="inscription" class="text-light"> PRÉINSCRIPTON EN LIGNE </a></button>
 </div>
 
@@ -143,10 +144,9 @@
       <div class="col-md-4 mx-auto">
 
         <!-- Content -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
-        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-          consectetur
-          adipisicing elit.</p>
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4"></h5>
+        <p>Tél : 05399-40796 Email : </p>
+        <p>contact@inas.social.gov.ma</p>
 
       </div>
       <!-- Grid column -->
