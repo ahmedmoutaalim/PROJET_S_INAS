@@ -500,7 +500,13 @@ background-color: #E82530;
   .burger.active span::after{
     transform:  translateY(0px) rotateZ(-45deg);
   }
+  body{
+    position: relative;
+  }
   .menu.show{
+    position: absolute;
+    z-index: 2;
     display: block;
+    background-color: white;
   }
 }
