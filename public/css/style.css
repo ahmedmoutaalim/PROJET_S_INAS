@@ -115,18 +115,12 @@ text-decoration:none;
 
 .menu_list-childlist{
 display:none;
-
-
-
 }
 .menu ul li{
 display: inline-block;
 
 padding:10px;
 float: left;
-
-
-
 }
 
 .menu ul li:hover .menu_list-childlist{
@@ -450,12 +444,13 @@ background-color: #E82530;
 @media only screen and (max-width: 1282px){
   .menu{
     display: none;
+    width: 300px;
   }
   .menu ul{
     width: 100%;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: start;
   }
   .burger{
     margin: 4px;
@@ -509,4 +504,30 @@ background-color: #E82530;
     display: block;
     background-color: white;
   }
+  .menu ul li:hover .menu_list-childlist{
+      position: absolute;
+      background:white;
+      border: 1px solid red;
+      /* margin-top:9px; */
+      left: 100px;
+      border-bottom-left-radius:5px;
+      border-bottom-right-radius:5px;
+      margin-bottom:-30px;
+      margin-left:-15px;
+      z-index:100;
+  }
+  .menu_list-childlist{
+    width: 200px;
+  }
+  .menu ul li:hover .menu_list-childlist ul li{
+    width:100%;
+    padding:0px;
+    border-bottom:1px dotted #fff;
+    text-align:left;
+    transition:.5s;
+    text-align: center;
+    }
+    .menu_list-childlist ul li {
+      margin: 10px 0;
+    }
 }
