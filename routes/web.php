@@ -49,16 +49,23 @@ Route::get('/formation_initiale', function () {
 Route::get('/formation_continue', function () {
     return view('formation_continue');
 });
-Route::get('/admission', function () {
-    return view('admission');
+Route::get('/admis', function () {
+    return view('admis');
 });
 Route::get('/inas-en-chiffres', function () {
     return view('chiffres');
 });
     
-Route::get('/inscription', function () {
-    return view('inscri');
-});
+// Route::get('/inscription', function () {
+//     return view('inscri');
+// });
+
+Route::resource('admission', 'admissionController');
+
+// Route::get('/next-step', function () {
+//     return view('next-step');
+// });
+
 
 
 Auth::routes();
