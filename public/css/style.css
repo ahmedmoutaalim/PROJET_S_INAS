@@ -48,7 +48,9 @@ list-style:none;
  
 }
 
-
+.carousel-inner{
+  height: 500px;
+}
 
 .menu{
 
@@ -530,4 +532,10 @@ background-color: #E82530;
     .menu_list-childlist ul li {
       margin: 10px 0;
     }
+
+}
+@media only screen and (max-width: 950px){
+  .logo__center{
+    display: none;
+  }
 }
