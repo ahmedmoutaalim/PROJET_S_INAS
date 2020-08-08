@@ -9,7 +9,20 @@
     <title>INAS</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css')}}">
   
+   <script>
+    
+    const click = document.getElementById('click')
+    const contact = document.getElementById('contact')
+
+    click.addEventListener('click',()=>{
    
+      contact.classList.remove('hide')
+
+    });
+
+   
+
+   </script>
  
     
   <!-- Font Awesome -->
@@ -141,11 +154,11 @@
     <div class="row">
 
       <!-- Grid column -->
-      <div class="col-md-4 mx-auto">
+      <div class="col-md-4 mx-auto " >
 
         <!-- Content -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4"></h5>
-        <p>Tél : 05399-40796 Email : </p>
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 "></h5>
+        <p id="contact" class=" hide" >Tél : 05399-40796 Email : </p>
         <p>contact@inas.social.gov.ma</p>
 
       </div>
@@ -183,11 +196,11 @@
       <div class="col-md-2 mx-auto">
 
         <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">FORMATION </h5>
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 ">FORMATION </h5>
 
         <ul class="list-unstyled">
           <li>
-            <a class="footer_links-hover"   href="#!">FORMATION CONTINUE</a>
+            <a class="footer_links-hover "  href="">FORMATION CONTINUE</a>
           </li>
           <li>
             <a class="footer_links-hover" href="#!">AGENDA</a>
@@ -317,9 +330,11 @@
   <div class="footer-copyright text-center py-3">© 2020 Institut National de l'Action Sociale 
         (INAS) | Ministère de la solidarité de la femme 
         de la famille et du développement social au Maroc
-    <a href="https:// inastanger.com/"> inastanger.com</a>
+    <a id="click"> inastanger.com</a>
   </div>
   <!-- Copyright -->
+
+ 
 
 </footer>
 <!-- Footer -->

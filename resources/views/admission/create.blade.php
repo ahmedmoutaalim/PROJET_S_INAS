@@ -46,13 +46,13 @@
         </div>
         <div class="form-group">
           <label for="exampleInputPassword1">Créer mot de passe : أنشئ كلمة مرور</label>
-          <input type="password" class="form-control" name="creation_password"  id="exampleInputPassword1" >
+          <input type="password" class="form-control" id="password" name="creation_password"  id="exampleInputPassword1" >
         </div>
-{{-- 
+
         <div class="form-group">
           <label for="exampleInputPassword1"> Confirmation mot de passe : تأكيد كلمة مرور</label>
           <input type="password"  class="form-control" id="exampleInputPassword1" >
-        </div> --}}
+        </div>
         
 
         <input class="btn btn-secondary my-2 my-sm-0 "  type="submit"  value="suivant">

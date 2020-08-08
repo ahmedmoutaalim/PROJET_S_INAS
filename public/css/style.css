@@ -84,7 +84,6 @@ transition:  .5s;
 color:#FF3838;
 text-decoration:none;
 
-
 }
 
 .menu_list-parentlist::after{
@@ -120,7 +119,6 @@ display:none;
 display: inline-block;
 
 padding:10px;
-float: left;
 }
 
 .menu ul li:hover .menu_list-childlist{
@@ -530,4 +528,11 @@ background-color: #E82530;
     .menu_list-childlist ul li {
       margin: 10px 0;
     }
+}
+
+
+
+.hide{
+
+  visibility: hidden;
 }
