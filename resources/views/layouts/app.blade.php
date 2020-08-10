@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>INAS</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css')}}">
+  
 
+ 
     
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <link rel="stylesheet" href="css/mdb.min.css">
-
+ 
+    
 </head>
 <body>
   <div style="display: flex; width: 100%;height: 120px; justify-content: space-between ;font-family: 'Work Sans', sans-serif; border-bottom:1.1px solid rgb(245,245,245); " >
@@ -144,47 +147,12 @@
     <div class="row">
 
       <!-- Grid column -->
-      <div class=" mx-auto " >
+      <div class="col-md-4 mx-auto " >
 
         <!-- Content -->
-       
-        <ul class="list-unstyled">
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Etude et recherche</h5>
-          <li>
-            <a class="footer_links-hover" href="#!">PRESENTATION</a>
-          </li>
-          <li>
-            <a class="footer_links-hover" href="#!">COLLOQUES</a>
-          </li>
-          <li>
-            <a class="footer_links-hover" href="#!">ETUDES & PUBLICATIONS</a>
-          </li>
-          <li>
-            <a class="footer_links-hover" href="#!">Stratégie et développement</a>
-          </li>
-          <li>
-            <a class="footer_links-hover" href="#!">Laboratoires de recherche</a>
-          </li>
-          <li>
-            <a class="footer_links-hover" href="#!">Évènements scientifiques</a>
-          </li>
-          <li>
-            <a class="footer_links-hover" href="#!">Centre d’Études doctorale</a>
-          </li>
-          <li>
-            <a class="footer_links-hover" href="#!">Revue scientifique</a>
-          </li>
-          <li>
-            <a class="footer_links-hover" href="#!">BIBLIOTHEQUE NUMERIQUE</a>
-          </li>
-          <li>
-            <a class="footer_links-hover" href="#!">MEDIATHEQUE</a>
-          </li>
-        
-          <li>
-            <a class="footer_links-hover" href="#!">ANNUAIRE</a>
-          </li>
-        </ul>
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 "></h5>
+        <p id="contact" class=" hide" >Tél : 05399-40796 Email : </p>
+        <p>contact@inas.social.gov.ma</p>
 
       </div>
       <!-- Grid column -->
@@ -208,7 +176,7 @@
             <a  class="footer_links-hover" href="#!">ETUDES ET RECHERCHE</a>
           </li>
           <li>
-            <a class="footer_links-hover" id="show" href="#!">DOCUMENTATION</a>
+            <a class="footer_links-hover" href="#!">DOCUMENTATION</a>
           </li>
         </ul>
 
@@ -255,9 +223,48 @@
       <!-- Grid column -->
       <div class="col-md-2 mx-auto">
 
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 "></h5>
-        <p  class="contact " >Tél : 05399-40796 Email : </p>
-        <p>contact@inas.social.gov.ma</p>
+
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Etude et recherche</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a class="footer_links-hover" href="#!">PRESENTATION</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">COLLOQUES</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">ETUDES & PUBLICATIONS</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">Stratégie et développement</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">Laboratoires de recherche</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">Évènements scientifiques</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">Centre d’Études doctorale</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">Revue scientifique</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">BIBLIOTHEQUE NUMERIQUE</a>
+          </li>
+          <li>
+            <a class="footer_links-hover" href="#!">MEDIATHEQUE</a>
+          </li>
+        
+          <li>
+            <a class="footer_links-hover" href="#!">ANNUAIRE</a>
+          </li>
+        </ul>
+
       </div>
       <!-- Grid column -->
 
@@ -270,10 +277,17 @@
   <hr>
 
   <!-- Call to action -->
-
+  <ul class="list-unstyled list-inline text-center py-2">
+    <li class="list-inline-item">
+      <h5 class="mb-1">Register for free</h5>
+    </li>
+    <li class="list-inline-item">
+      <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+    </li>
+  </ul>
   <!-- Call to action -->
 
-  
+  <hr>
 
   <!-- Social buttons -->
   <ul class="list-unstyled list-inline text-center">
@@ -309,40 +323,13 @@
   <div class="footer-copyright text-center py-3">© 2020 Institut National de l'Action Sociale 
         (INAS) | Ministère de la solidarité de la femme 
         de la famille et du développement social au Maroc
-    <a > inastanger.com</a>
+    <a id="click"> inastanger.com</a>
   </div>
   <!-- Copyright -->
 
  
 
 </footer>
-<!-- Footer -->
-
-<!--     
- <div class="footer">
-    <div class="footer_links">
-       <a class="footer_links-hover"  href="#">PRESENTATION DE L’INAS</a>
-       <a class="footer_links-hover" href="#">FORMATION</a>
-       <a class="footer_links-hover" href="#">ETUDES ET RECHERCHE</a>
-       <a class="footer_links-hover" href="#">DOCUMENTATION</a>
-
-    </div>  
-    <div  class="footer_linkssecond" >
-    <a class="footer_links-hover" href="#">ACTUALITES</a>
-       <a class="footer_links-hover" href="#">COOPERATION ET PARTENARIAT</a>
-       <a class="footer_links-hover" href="#">Liens Utiles</a>
-       <hr>
-    </div>   
-    
-    <div class="footer_fond">
-    
-
-      <p class="endFooter">© 2020 Institut National de l'Action Sociale 
-        (INAS) | Ministère de la solidarité de la femme 
-        de la famille et du développement social au Maroc</p>
-
-    </div>
- </div>    -->
 
      
      <script src="{{ asset('js/java.js')}}"></script> 

@@ -38,7 +38,15 @@ list-style:none;
 
 }
 
-
+.b{
+  border: none;
+  background-color: #E82530;
+  color: white;
+  padding: 10px;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
 
 .incription:hover{
 
