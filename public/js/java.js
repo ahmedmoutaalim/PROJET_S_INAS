@@ -1,16 +1,13 @@
-// const option = document.getElementById("show");
-// const liste = document.querySelector(".omar")
 
-// option.addEventListener('click' ,()=>{
 
-//     liste.classList.add('hide')
-    
+
 
 // });
 console.log('hi');
 
 const burger = document.querySelector('.burger');
-const menu = document.querySelector('.menu')
+const menu = document.querySelector('.menu');
+
 
 burger.addEventListener('click', () =>{
     burger.classList.toggle('active');
@@ -19,7 +16,25 @@ burger.addEventListener('click', () =>{
 
 
 
-//confirmation password
+//----------------confirmation password
+
+var password = document.getElementById("password")
+  , confirm_password = document.getElementById("confirm_password");
+
+function validatePassword(){
+  if(password.value != confirm_password.value) {
+    confirm_password.setCustomValidity("Passwords Don't Match");
+  } else {
+    confirm_password.setCustomValidity('');
+  }
+}
+
+password.onchange = validatePassword;
+confirm_password.onkeyup = validatePassword;
+
+
+
+
 
 
 
