@@ -120,7 +120,7 @@ display:none;
 .menu ul li{
 display: inline-block;
 
-padding:10px;
+padding:10px 7px;
 }
 
 .menu ul li:hover .menu_list-childlist{
@@ -446,6 +446,8 @@ background-color: #E82530;
   .menu{
     display: none;
     width: 300px;
+    box-shadow: 1px 1px 4px #000000;
+    border-radius: 5px;
   }
   .menu ul{
     width: 100%;
@@ -530,6 +532,12 @@ background-color: #E82530;
     }
     .menu_list-childlist ul li {
       margin: 10px 0;
+    }
+    .menu_list-childlist ul li a:hover{
+      font-size:14px;
+      color: red;
+      text-decoration:none;
+      
     }
 }
 
