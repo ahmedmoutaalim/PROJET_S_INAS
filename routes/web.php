@@ -62,10 +62,11 @@ Route::get('/inas-en-chiffres', function () {
 
 Route::resource('admission', 'admissionController');
 
-// Route::get('/next-step', function () {
-//     return view('next-step');
-// });
+Route::get('/etudiants/next-step', function () {
+    return view('etudiants.next-step');
+});
 
+// Route::post('/etudiants', 'admissionController@save')->name('etudiants');
 
 
 Auth::routes();

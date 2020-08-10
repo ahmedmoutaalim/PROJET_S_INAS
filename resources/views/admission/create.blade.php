@@ -19,7 +19,7 @@
     <ul>
       @foreach ($errors->all() as $error)
 
-    <li>{{$error}}</li>
+    <li style="width: 90% ; display:block; margin:auto;height:5%;  " class="alert alert-danger ">{{$error}}</li>
           
       @endforeach
     </ul>
@@ -37,6 +37,7 @@
         <div class="form-group">
           <label for="exampleInputEmail1">Code Massar : رقم مسار</label>
           <input type="text"  class="form-control" name="code_massar" id="exampleInputEmail1" aria-describedby="emailHelp" >
+ 
            
         </div>
 
@@ -51,7 +52,7 @@
 
         <div class="form-group">
           <label for="exampleInputPassword1"> Confirmation mot de passe : تأكيد كلمة مرور</label>
-          <input type="password"  class="form-control" id="exampleInputPassword1" >
+          <input type="password" id="confirm_password"  class="form-control" id="exampleInputPassword1" >
         </div>
         
 

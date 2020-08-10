@@ -24,8 +24,11 @@ class admissionController extends Controller
      */
     public function create()
     {
-       return view('admission.create');  //
+        return view('admission.create'); 
+       //
     }
+  
+   
 
     /**
      * Store a newly created resource in storage.
@@ -47,7 +50,7 @@ class admissionController extends Controller
           'creation_password'=> $request->get('creation_password') 
         ]);
         $admission->save();
-        return redirect()->route('admission.create')->with('success' , 'Data added');
+        return redirect('/etudiants/next-step');
 
     }
 
