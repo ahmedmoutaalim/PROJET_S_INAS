@@ -4,7 +4,7 @@
 
 @section('accueil')
 
-<form action="{{url('')}} " style=" margin:50px;">
+<form action="{{url('etudiants')}} " style=" margin:50px;">
   <div class="form-row">
       <div class="col-md-4 mb-3">
           <label for="prenom">Prénom</label>

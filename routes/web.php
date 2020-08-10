@@ -66,6 +66,8 @@ Route::get('/etudiants/next-step', function () {
     return view('etudiants.next-step');
 });
 
+Route::resource('etudiants', 'admissionController');
+
 // Route::post('/etudiants', 'admissionController@save')->name('etudiants');
 
 

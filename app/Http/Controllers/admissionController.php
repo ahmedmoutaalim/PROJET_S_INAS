@@ -25,7 +25,8 @@ class admissionController extends Controller
     public function create()
     {
         return view('admission.create'); 
-       //
+        return view('etudiants.next-step'); 
+       
     }
   
    
@@ -39,6 +40,7 @@ class admissionController extends Controller
     public function store(Request $request)
     {
         
+        //----request Admission-----!!
         $this->validate($request ,[
            'code_massar'=> 'required',
            'date_naissance'=>'required',
@@ -51,6 +53,12 @@ class admissionController extends Controller
         ]);
         $admission->save();
         return redirect('/etudiants/next-step');
+
+
+
+        //-------------request etudiants--------!!
+
+        
 
     }
 

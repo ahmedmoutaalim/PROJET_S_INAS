@@ -22,7 +22,7 @@
   
     <form   action="{{url('admission/create')}}">
       <input class="incription"  type="submit" value=" PRÉINSCRIPTON EN LIGNE" />
-  </form>
+    </form>
   </div>
   <div class="burger">
     <span></span>
