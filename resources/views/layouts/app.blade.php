@@ -151,7 +151,7 @@
 
         <!-- Content -->
         <h5 class="font-weight-bold text-uppercase mt-3 mb-4 "></h5>
-        <p id="contact" class=" hide" >Tél : 05399-40796 Email : </p>
+        <p id="contact" >Tél : 05399-40796 Email : </p>
         <p>contact@inas.social.gov.ma</p>
 
       </div>

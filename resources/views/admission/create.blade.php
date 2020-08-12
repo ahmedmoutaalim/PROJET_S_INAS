@@ -13,9 +13,15 @@
     <title>Document</title>
 </head>
 <body>
+  <div  style="background-color:red;      background-image: url(http://inastanger.ma/wp-content/uploads/2020/07/fdcgfd.jpg)" >
+    <div class="row p-5 w-100" style="color: whitesmoke;">
+        <h1 class="col font-weight-bold">Préinscription en ligne</h1>
+        <div class="col pt-3 text-center font-weight-bold "><p><a href="home" style="color: #d7ccc8; "> Accueil ></a> Formation initiale</p></div>
+    </div>
+</div>
 
   @if(count($errors)>0)
-  <div>
+  <div style="margin-top: 20px" >
     <ul>
       @foreach ($errors->all() as $error)
 
@@ -36,9 +42,7 @@
         @csrf
         <div class="form-group">
           <label for="exampleInputEmail1">Code Massar : رقم مسار</label>
-          <input type="text"  class="form-control" name="code_massar" id="exampleInputEmail1" aria-describedby="emailHelp" >
- 
-           
+          <input type="text"  class="form-control" name="code_massar" id="exampleInputEmail1" aria-describedby="emailHelp" >       
         </div>
 
         <div>
