@@ -48,7 +48,9 @@
             <li> <a href="les-departement">Deprtements</a> </li>
             <li> <a href="inas-en-chiffres">INAS EN CHIFFRES</a></li>
           </ul>
-        
+          <form   action="{{url('admission/create')}}">
+            <input class="incription"  type="submit" value=" PRÉINSCRIPTON EN LIGNE" />
+          </form>
         </div>
     </li>
 

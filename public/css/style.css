@@ -40,9 +40,7 @@ list-style:none;
 }
 
 
-<<<<<<< HEAD
-=======
-.b{
+/* .b{
   border: none;
   background-color: #E82530;
   color: white;
@@ -50,8 +48,7 @@ list-style:none;
   height: 100px;
   margin-top: 10px;
   border-radius: 8px;
-}
->>>>>>> 771cfd0408ce581b7c509a9f51045ff3b5e42c41
+} */
 
 .incription:hover{
 
@@ -98,7 +95,7 @@ margin-top:4px;
 
 .menu_list-accueil:hover{
 transition:  .5s;
-color:#FF3838;
+color:white;
 text-decoration:none;
 
 }
@@ -462,7 +459,6 @@ background-color: #E82530;
   .head  .logo__center{
     display: none;
   }
-  
   .menu{
     display: none;
     width: 100%;
@@ -521,6 +517,36 @@ background-color: #E82530;
   .burger.active span::after{
     transform:  translateY(0px) rotateZ(-45deg);
   }
+  .menu_list-accueil::after{
+    content:'';
+    height:0px;
+    background:white;
+    display:block;
+    width:0;
+    margin-top:0px;
+  }
+  .menu_list-parentlist:hover{
+    transition: .5s;
+    color:white;
+    text-decoration:none;
+  }
+  .menu_list-parentlist:hover::after {
+    width:100%;
+    transition: width 1s;
+    color:white;
+    text-decoration:none;
+    
+  }
+  .menu_list-parentlist::after{
+    content:'';
+    display:block;
+    width:0%;
+    height:2.3px;
+    background:white;
+    margin-top:4px;
+    transition: .5s;
+    position:relative;
+    }
   body{
     position: relative;
   }
@@ -531,15 +557,15 @@ background-color: #E82530;
     background-color: white;
   }
   .menu ul li:hover .menu_list-childlist{
-      position: absolute;
+      position: unset;
+      width: 100%;
       background:white;
       border: 2px solid red;
       margin-top:9px;
-      left: 100px;
+      left: 80px;
       border-radius: 5px;
       margin-bottom:-30px;
-      margin-left:-15px;
-      z-index:100;
+      z-index:0;
   }
   
   .menu_list-childlist{
@@ -555,8 +581,15 @@ background-color: #E82530;
     transition:.5s;
     text-align: center;
     }
+    .menu_list-childlist ul{
+      margin-bottom: 10px;
+    }
     .menu_list-childlist ul li {
       margin: 10px 0;
+    }
+    .menu_list-childlist ul li a{
+      color: black;
+      font-weight: bold;
     }
     .menu_list-childlist ul li a:hover{
       font-size:25px;
@@ -566,6 +599,7 @@ background-color: #E82530;
     }
     .list{
       background-color: #E82530;
+      padding:10px 50px;
     }
     .incription{
       display: none;
