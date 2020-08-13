@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Etudiant;
+use App\Filiere;
 
 
-class etudiantController extends Controller
+class filiereController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -25,8 +25,7 @@ class etudiantController extends Controller
      */
     public function create()
     {
-        
-        return view('etudiants.create');     //
+        return view('etudiants.create');  //
     }
 
     /**
@@ -37,27 +36,15 @@ class etudiantController extends Controller
      */
     public function store(Request $request)
     {
-  
-
-        $etudiant = new Etudiant([
+        $filiere = new Filiere([
            
-            'nom_etudiant'=> $request->get('nom_etudiant'),
-            'prenom_etudiant'=> $request->get('prenom_etudiant'),
-            'lieu_naissance'=> $request->get('lieu_naissance'),
-            'adresse_email'=> $request->get('adresse_email'),
-            'numero_telephone'=> $request->get('numero_telephone'),
-            'annee_bac'=> $request->get('annee_bac'),
-            'section_bac'=> $request->get('section_bac'),
-            'ville_etudiant'=> $request->get('ville_etudiant'),
-            'etablissement'=> $request->get('etablissement'),
-            'adresse_etudiant'=> $request->get('adresse_etudiant'),
-            
-
+            'filiére_etudiant'=> $request->get('filiére_etudiant'),
+      
+    
         ]);
-        $etudiant->save();
-        return redirect('/etudiants/create');
 
-  //
+        $filiere ->save();
+        return redirect('/etudiants/create');//
     }
 
     /**

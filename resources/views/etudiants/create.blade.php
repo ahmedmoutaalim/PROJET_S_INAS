@@ -9,6 +9,8 @@
         <div class="col pt-3 text-center font-weight-bold "><p><a href="home" style="color: #d7ccc8; "> Accueil ></a> Formation initiale</p></div>
     </div>
 </div>
+
+<h2>étape information </h2>
 <form action="{{url('etudiants')}}"  method="POST" " style=" margin:50px;">
     @csrf
   <div class="form-row">
@@ -62,6 +64,26 @@
     
     </div>
 </div>
+<div class="form-row">
+    <div class="col-md-6 mb-3">
+        <label for="">adresse : </label>
+        <input name="adresse_etudiant" type="text" class="form-control"  required>
+    </div>    
+    <div class="col-md-6 mb-3">
+        <label for="">adresse : </label>
+        <input name="adresse_etudiant" type="text" class="form-control"  required>
+    </div>    
+    {{-- <div class="col-md-6 mb-3">
+        <label for="lieu">filiére : </label>
+       
+        <select name="filiére_etudiant" style="height: 38px" class="custom-select custom-select-sm">
+            <option  selected> </option>
+            <option value="1">Conseiller Social</option>
+            <option value="2">Gestionnaire en affaires sociales</option>
+          
+          </select>
+    </div> --}}
+</div>    
   {{-- <div class="form-group">
       <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" required>

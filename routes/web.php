@@ -65,6 +65,8 @@ Route::resource('admission', 'admissionController');
 
 Route::resource('etudiants', 'etudiantController');
 
+Route::resource('etudiants', 'filiereController');
+
 
 // Route::post('/etudiants', 'admissionController@save')->name('etudiants');
 
