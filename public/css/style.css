@@ -35,16 +35,31 @@ list-style:none;
     border-bottom-left-radius:5px;
     border-top-left-radius:5px;
     transition: ease 0.5s;
+    position: relative;
 
 }
 
 
+<<<<<<< HEAD
+=======
+.b{
+  border: none;
+  background-color: #E82530;
+  color: white;
+  padding: 10px;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+>>>>>>> 771cfd0408ce581b7c509a9f51045ff3b5e42c41
 
 .incription:hover{
 
 opacity: 0.8;
 
 }
+
+
 
 
 

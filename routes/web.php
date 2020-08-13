@@ -62,11 +62,11 @@ Route::get('/inas-en-chiffres', function () {
 
 Route::resource('admission', 'admissionController');
 
-Route::get('/etudiants/next-step', function () {
-    return view('etudiants.next-step');
-});
 
-Route::resource('etudiants', 'admissionController');
+Route::resource('etudiants', 'etudiantController');
+
+Route::resource('etudiants', 'filiereController');
+
 
 // Route::post('/etudiants', 'admissionController@save')->name('etudiants');
 

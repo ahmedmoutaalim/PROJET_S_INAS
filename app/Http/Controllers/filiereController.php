@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Admission;
+use App\Filiere;
 
 
-class admissionController extends Controller
+class filiereController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -25,12 +25,8 @@ class admissionController extends Controller
      */
     public function create()
     {
-        return view('admission.create'); 
-       
-       
+        return view('etudiants.create');  //
     }
-  
-   
 
     /**
      * Store a newly created resource in storage.
@@ -40,27 +36,15 @@ class admissionController extends Controller
      */
     public function store(Request $request)
     {
-        
-        //----request Admission-----!!
-        $this->validate($request ,[
-           'code_massar'=> 'required',
-           'date_naissance'=>'required',
-           'creation_password'=>'required'
+        $filiere = new Filiere([
+           
+            'filiére_etudiant'=> $request->get('filiére_etudiant'),
+      
+    
         ]);
-        $admission = new Admission([
-          'code_massar' => $request->get('code_massar'),
-          'date_naissance'=> $request->get('date_naissance'),
-          'creation_password'=> $request->get('creation_password'), 
-          'time_insert'=> $request->get('time_insert') 
-        ]);
-        $admission->save();
-        return redirect('/etudiants/create');
 
-
-
-        
-
-       
+        $filiere ->save();
+        return redirect('/etudiants/create');//
     }
 
     /**

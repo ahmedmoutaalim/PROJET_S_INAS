@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Admission;
+use App\Etudiant;
 
 
-class admissionController extends Controller
+class etudiantController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -25,12 +25,9 @@ class admissionController extends Controller
      */
     public function create()
     {
-        return view('admission.create'); 
-       
-       
+        
+        return view('etudiants.create');     //
     }
-  
-   
 
     /**
      * Store a newly created resource in storage.
@@ -40,27 +37,27 @@ class admissionController extends Controller
      */
     public function store(Request $request)
     {
-        
-        //----request Admission-----!!
-        $this->validate($request ,[
-           'code_massar'=> 'required',
-           'date_naissance'=>'required',
-           'creation_password'=>'required'
+  
+
+        $etudiant = new Etudiant([
+           
+            'nom_etudiant'=> $request->get('nom_etudiant'),
+            'prenom_etudiant'=> $request->get('prenom_etudiant'),
+            'lieu_naissance'=> $request->get('lieu_naissance'),
+            'adresse_email'=> $request->get('adresse_email'),
+            'numero_telephone'=> $request->get('numero_telephone'),
+            'annee_bac'=> $request->get('annee_bac'),
+            'section_bac'=> $request->get('section_bac'),
+            'ville_etudiant'=> $request->get('ville_etudiant'),
+            'etablissement'=> $request->get('etablissement'),
+            'adresse_etudiant'=> $request->get('adresse_etudiant'),
+            
+
         ]);
-        $admission = new Admission([
-          'code_massar' => $request->get('code_massar'),
-          'date_naissance'=> $request->get('date_naissance'),
-          'creation_password'=> $request->get('creation_password'), 
-          'time_insert'=> $request->get('time_insert') 
-        ]);
-        $admission->save();
+        $etudiant->save();
         return redirect('/etudiants/create');
 
-
-
-        
-
-       
+  //
     }
 
     /**
