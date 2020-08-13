@@ -36,12 +36,12 @@
       </div>
       <div class="col-md-3 mb-3">
           <label for="num">numero telephone : </label>
-          <input name="numero_telephone" type="text" class="form-control"required>
+          <input name="numero_telephone" type="tel" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" class="form-control"required>
         
       </div>
       <div class="col-md-3 mb-3">
           <label for="cp">annee bac : </label>
-          <input name="annee_bac" type="text" class="form-control"  required>
+          <input name="annee_bac" max="2020" min="2016" type="number" class="form-control"  required>
         
       </div>
   </div>
