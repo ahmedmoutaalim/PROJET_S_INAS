@@ -61,14 +61,13 @@
                                            L’INAS s’appuie également sur une diversité de perspectives théoriques et méthodologiques, ainsi que sur les savoirs issus des pratiques professionnelles.</P>
     </div>
 
-    <div class="flex_imgs">
-    <img  class="flex_imgs-self" width="222" height="100" src="http://inastanger.ma/wp-content/uploads/2020/07/srceen100720.png"  alt="img1">
-    <img  class="flex_imgs-self" width="223" height="100" src="http://inastanger.ma/wp-content/uploads/2020/07/unnamed-03072020.png"  alt="img2">
-    <img  class="flex_imgs-self" width="222" height="100" src="http://inastanger.ma/wp-content/uploads/2020/07/srceen100720.png"  alt="img1">
-    <img  class="flex_imgs-self" width="223" height="100" src="http://inastanger.ma/wp-content/uploads/2020/07/unnamed-03072020.png"  alt="img2">
+    <div class="flex_imgs d-flex justify-content-between">
+    <img   width="222" height="100" src="http://inastanger.ma/wp-content/uploads/2020/07/srceen100720.png"  alt="img1">
+    <img   width="223" height="100" src="http://inastanger.ma/wp-content/uploads/2020/07/unnamed-03072020.png"  alt="img2">
+    <img   width="222" height="100" src="http://inastanger.ma/wp-content/uploads/2020/07/srceen100720.png"  alt="img1">
+    <img   width="223" height="100" src="http://inastanger.ma/wp-content/uploads/2020/07/unnamed-03072020.png"  alt="img2">
     </div>
-
-    <div class="flex_liens">
+    <div class="flex_liens pb-4">
 
     <h1> LIENS UTILES</h1>
     <img  width="150" height="80" src="http://inastanger.ma/wp-content/uploads/2020/07/e-chiqayasite.png" alt="">

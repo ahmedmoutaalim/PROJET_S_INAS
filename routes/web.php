@@ -71,6 +71,6 @@ Route::resource('etudiants', 'admissionController');
 // Route::post('/etudiants', 'admissionController@save')->name('etudiants');
 
 
-Auth::routes();
+// Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

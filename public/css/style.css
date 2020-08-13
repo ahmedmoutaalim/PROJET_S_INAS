@@ -38,15 +38,7 @@ list-style:none;
 
 }
 
-.b{
-  border: none;
-  background-color: #E82530;
-  color: white;
-  padding: 10px;
-  height: 100px;
-  margin-top: 10px;
-  border-radius: 8px;
-}
+
 
 .incription:hover{
 
@@ -95,7 +87,9 @@ color:#FF3838;
 text-decoration:none;
 
 }
-
+/* .menu_list-parentlist{
+  padding: 10px;
+} */
 .menu_list-parentlist::after{
 content:'';
 display:block;
@@ -255,7 +249,6 @@ color:#333333;
 .flex_imgs{
 
   grid-area:flex_imgs ;
-
   display: block;
   
 }
@@ -451,11 +444,13 @@ background-color: #E82530;
     }
 }
 @media only screen and (max-width: 1282px){
+  .head  .logo__center{
+    display: none;
+  }
+  
   .menu{
     display: none;
-    width: 300px;
-    box-shadow: 1px 1px 4px #000000;
-    border-radius: 5px;
+    width: 100%;
   }
   .menu ul{
     width: 100%;
@@ -463,30 +458,35 @@ background-color: #E82530;
     flex-direction: column;
     text-align: start;
   }
+  .menu ul li a{
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+  }
   .burger{
     margin: 4px;
     width: 42px;
-    height: 24px;
+    height: 70px;
     cursor: pointer;
     position: relative;
-
+    padding-top: 9px;
+    margin-right: 40px;
   }
   .burger span{
     width: 100%;
     height: 4px;
     background-color: #000;
     display: block;
-    position: absolute;
     top: 50%;
-    transform: translateY(-50%);
     transition: background-color 0.5s ease-in-out;
+    margin-top: 20px;
   }
   .burger span::before, .burger span::after{
     content: '';
     position: absolute;
     width: 100%;
     height: 4px;
-    background-color: #000;
+    background: black;
   } 
   .burger span::before{
     transform: translateY(10px);
@@ -511,7 +511,7 @@ background-color: #E82530;
   }
   .menu.show{
     position: absolute;
-    z-index: 2;
+    z-index: 24;
     display: block;
     background-color: white;
   }
@@ -526,8 +526,10 @@ background-color: #E82530;
       margin-left:-15px;
       z-index:100;
   }
+  
   .menu_list-childlist{
-    width: 200px;
+    width: 80%;
+    margin: auto 0 0 0;
   }
   .menu ul li:hover .menu_list-childlist ul li{
     width:90%;
@@ -542,11 +544,23 @@ background-color: #E82530;
       margin: 10px 0;
     }
     .menu_list-childlist ul li a:hover{
-      font-size:14px;
+      font-size:25px;
       color: red;
       text-decoration:none;
       
     }
+    .list{
+      background-color: #E82530;
+    }
+    .incription{
+      display: none;
+    }
+    .nv{
+      display: flex;
+      align-items: center;
+    }
+  
+    
 }
 
 
@@ -558,7 +572,18 @@ background-color: #E82530;
 
 
 .hide{
-
   visibility: hidden;
-
 }
+
+/* 
+@media only screen and (max-width: 767px){
+  .incription{
+    display: none;
+  }
+  .nv{
+    display: flex;
+    align-items: center;
+  }
+
+
+} */

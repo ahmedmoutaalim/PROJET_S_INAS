@@ -19,16 +19,18 @@
     
 </head>
 <body>
-  <div style="display: flex; width: 100%;height: 120px; justify-content: space-between ;font-family: 'Work Sans', sans-serif; border-bottom:1.1px solid rgb(245,245,245); " >
-    <img src="images/logo.png"  class="click" style=" width:130px;cursor:pointer; height:110px ; margin-left:18px;">
-    <img class="logo__center "  style='display:block; margin:auto; margin-left:20%;' src="https://inastanger.ma/wp-content/uploads/2020/07/imgo-1.png">
-  
-    <form   action="{{url('admission/create')}}">
-      <input class="incription"  type="submit" value=" PRÉINSCRIPTON EN LIGNE" />
-    </form>
-  </div>
-  <div class="burger">
-    <span></span>
+  <div class="nv">
+    <div style="display: flex; width: 100%;height: 120px; justify-content: space-between ;font-family: 'Work Sans', sans-serif; border-bottom:1.1px solid rgb(245,245,245); " class="head">
+      <img src="https://inastanger.ma/wp-content/uploads/2020/07/inas-tanger-copie.png"  class="click" style=" width:130px;cursor:pointer; height:110px ; margin-left:18px;">
+      <img class="logo__center"  style=' margin:auto; margin-left:20%;' src="https://inastanger.ma/wp-content/uploads/2020/07/imgo-1.png">
+    
+      <form   action="{{url('admission/create')}}">
+        <input class="incription"  type="submit" value=" PRÉINSCRIPTON EN LIGNE" />
+      </form>
+    </div>
+    <div class="burger">
+      <span></span>
+    </div>
   </div>
   <div class="menu">
   
