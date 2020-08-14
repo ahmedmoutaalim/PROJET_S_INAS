@@ -69,11 +69,8 @@
         <label for="">adresse : </label>
         <input name="adresse_etudiant" type="text" class="form-control"  required>
     </div>    
+   
     <div class="col-md-6 mb-3">
-        <label for="">adresse : </label>
-        <input name="adresse_etudiant" type="text" class="form-control"  required>
-    </div>    
-    {{-- <div class="col-md-6 mb-3">
         <label for="lieu">filiére : </label>
        
         <select name="filiére_etudiant" style="height: 38px" class="custom-select custom-select-sm">
@@ -82,7 +79,7 @@
             <option value="2">Gestionnaire en affaires sociales</option>
           
           </select>
-    </div> --}}
+    </div>
 </div>    
   {{-- <div class="form-group">
       <div class="form-check">
