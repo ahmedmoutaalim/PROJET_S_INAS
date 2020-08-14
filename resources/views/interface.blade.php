@@ -31,56 +31,54 @@
 @endsection
 
 @section('présontation')
+<div class="inter">
+      <div>
+          <h1>PRÉSENTATION DE L’INAS</h1> <br>
+            <p>L’Institut National de l’Action Sociale est un établissement 
+                                            d’enseignement supérieur ne relevant pas des universités,
+                                            crée en 1981 par l’autorité gouvernementale chargée des
+                                            affaires sociales en vertu du décret n° 2.84.30 du 31 Janvier 1985, 
+                                            c’est un Institut de formation et de recherche en travail social et développement 
+                                            social de grande renommée nationale et africaine. Il forme des cadres supérieurs et 
+                                            moyens spécialisés en travail social et mène actuellement un  grand chantier de restructuration
+                                            et développement pour diversifier son offre de formation et augmenter ses effectifs
+                                            d’étudiants et intégrer la formation à l’international. <br>
+                                            L’institut relève actuellement du Ministère de la Solidarité
+                                            du Développement Social, de l’Egalité et de la Famille.</p>
+      </div>
 
-<div class="flex">
+      <div>
+            <h1>Mot de la Directrice de l’INAS</h1> <br>
+              <P>
+                                            Actuellement, le domaine du travail social est en plein essor, et en perpétuelle évolution, ce qui en fait un choix de formation convoité par les professionnels en devenir. <br> 
 
-     <div class='flex_firstText'>
-         <h1 class="flex_firstText-title">PRÉSENTATION DE L’INAS</h1> <br>
-           <p class='flex_firstText-content'>L’Institut National de l’Action Sociale est un établissement 
-                                           d’enseignement supérieur ne relevant pas des universités,
-                                           crée en 1981 par l’autorité gouvernementale chargée des
-                                           affaires sociales en vertu du décret n° 2.84.30 du 31 Janvier 1985, 
-                                           c’est un Institut de formation et de recherche en travail social et développement 
-                                           social de grande renommée nationale et africaine. Il forme des cadres supérieurs et 
-                                           moyens spécialisés en travail social et mène actuellement un  grand chantier de restructuration
-                                           et développement pour diversifier son offre de formation et augmenter ses effectifs
-                                           d’étudiants et intégrer la formation à l’international. <br>
-                                           L’institut relève actuellement du Ministère de la Solidarité
-                                           du Développement Social, de l’Egalité et de la Famille.</p>
-     </div>
+                                            Dans ce sens, l’Institut National de l’Action Sociale contribue à la formation de personnes  compétentes et réflexives, dotées d’un sens critique et éthique aiguisé qui deviendront des acteurs de changement pour le mieux-être des personnes. <br> 
 
-     <div class='flex_secondText'>
-          <h1 class='flex_secondText-title'>Mot de la Directrice de l’INAS</h1> <br>
-            <P class='flex_secondText-content'>
-                                           Actuellement, le domaine du travail social est en plein essor, et en perpétuelle évolution, ce qui en fait un choix de formation convoité par les professionnels en devenir. <br> 
+                                            Milieu d’échange stimulant, notre institut adhère à des valeurs et à des principes de justice sociale et favorise la promotion du développement social et du respect de la diversité humaine, dans un esprit d’ouverture et de dialogue. Il favorise la collaboration interprofessionnelle centrée sur les personnes, les familles, les groupes et les collectivités auprès desquels les professionnels interviennent. <br> 
 
-                                           Dans ce sens, l’Institut National de l’Action Sociale contribue à la formation de personnes  compétentes et réflexives, dotées d’un sens critique et éthique aiguisé qui deviendront des acteurs de changement pour le mieux-être des personnes. <br> 
+                                            L’INAS s’appuie également sur une diversité de perspectives théoriques et méthodologiques, ainsi que sur les savoirs issus des pratiques professionnelles.</P>
+      </div>
+  </div>
+    <div class="d-flex justify-content-between  flex-wrap w-100">
+      <img  class="p-2 elem"  src="http://inastanger.ma/wp-content/uploads/2020/07/srceen100720.png"  alt="img1">
+      <img class="p-2 elem"  src="http://inastanger.ma/wp-content/uploads/2020/07/unnamed-03072020.png"  alt="img2">
+      <img class="p-2 elem"   src="http://inastanger.ma/wp-content/uploads/2020/07/srceen100720.png"  alt="img1">
+      <img  class="p-2 elem"  src="http://inastanger.ma/wp-content/uploads/2020/07/unnamed-03072020.png"  alt="img2">
+    </div>
+    <div >
 
-                                           Milieu d’échange stimulant, notre institut adhère à des valeurs et à des principes de justice sociale et favorise la promotion du développement social et du respect de la diversité humaine, dans un esprit d’ouverture et de dialogue. Il favorise la collaboration interprofessionnelle centrée sur les personnes, les familles, les groupes et les collectivités auprès desquels les professionnels interviennent. <br> 
+      <h1> LIENS UTILES</h1>
+      <div class="d-flex justify-content-between  flex-wrap w-100">
+      <img  class="p-2 elem" width="150" height="80" src="http://inastanger.ma/wp-content/uploads/2020/07/e-chiqayasite.png" alt="">
+      <img   class="p-2 elem"  width="150" height="80" src="http://inastanger.ma/wp-content/uploads/2020/07/visuel-4_1.jpg" alt="">
+      <img  class="p-2 elem" width="150" height="80"  src="http://inastanger.ma/wp-content/uploads/2020/07/visuel-4_1.jpg" alt="">
+      <img  class="p-2 elem" width="150" height="80"   src="http://inastanger.ma/wp-content/uploads/2020/07/visuel-4_1.jpg" alt="">
+      <img  width="150" height="80" class="p-2 elem" src="http://inastanger.ma/wp-content/uploads/2020/07/img1arcampagne.jpg" alt="">
+      <img  width="150" height="80" class="p-2 elem" src="http://inastanger.ma/wp-content/uploads/2020/07/img1arcampagne.jpg" alt="">
+      </div>
 
-                                           L’INAS s’appuie également sur une diversité de perspectives théoriques et méthodologiques, ainsi que sur les savoirs issus des pratiques professionnelles.</P>
+
     </div>
 
-    <div class="flex_imgs d-flex justify-content-between">
-    <img   width="222" height="100" src="http://inastanger.ma/wp-content/uploads/2020/07/srceen100720.png"  alt="img1">
-    <img   width="223" height="100" src="http://inastanger.ma/wp-content/uploads/2020/07/unnamed-03072020.png"  alt="img2">
-    <img   width="222" height="100" src="http://inastanger.ma/wp-content/uploads/2020/07/srceen100720.png"  alt="img1">
-    <img   width="223" height="100" src="http://inastanger.ma/wp-content/uploads/2020/07/unnamed-03072020.png"  alt="img2">
-    </div>
-    <div class="flex_liens pb-4">
-
-    <h1> LIENS UTILES</h1>
-    <img  width="150" height="80" src="http://inastanger.ma/wp-content/uploads/2020/07/e-chiqayasite.png" alt="">
-    <img   width="150" height="80"   src="http://inastanger.ma/wp-content/uploads/2020/07/visuel-4_1.jpg" alt="">
-    <img  width="150" height="80"   src="http://inastanger.ma/wp-content/uploads/2020/07/visuel-4_1.jpg" alt="">
-    <img  width="150" height="80"    src="http://inastanger.ma/wp-content/uploads/2020/07/visuel-4_1.jpg" alt="">
-    <img  width="150" height="80" src="http://inastanger.ma/wp-content/uploads/2020/07/img1arcampagne.jpg" alt="">
-    <img  width="150" height="80" src="http://inastanger.ma/wp-content/uploads/2020/07/img1arcampagne.jpg" alt="">
-    
-
-
-    </div>
-
-</div>
 
 @endsection

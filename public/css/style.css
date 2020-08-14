@@ -214,7 +214,7 @@ height: 550px;
 }
 
 /*---------------------------------section_presontation----------------------------*/
-.flex{
+/* .flex{
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -233,9 +233,9 @@ height: 550px;
   
  
 
-}
+} */
 
-.flex_firstText{
+/* .flex_firstText{
   grid-area:flex_firstText ;
 }
 
@@ -258,9 +258,9 @@ color:#333333;
   grid-area:flex_secondText ;
 
  
-}
+} */
 
-.flex_imgs{
+/* .flex_imgs{
 
   grid-area:flex_imgs ;
   display: block;
@@ -288,6 +288,13 @@ color:#333333;
   margin-left: 50px;
 
 
+} */
+.inter{
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
 }
 .mode{
   background-color: #333;
@@ -638,15 +645,21 @@ background-color: #E82530;
   visibility: hidden;
 }
 
-/* 
-@media only screen and (max-width: 767px){
-  .incription{
-    display: none;
-  }
-  .nv{
-    display: flex;
-    align-items: center;
+
+@media only screen and (max-width: 900px){
+  .inter{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,auto);
+    grid-gap: 0px;
   }
 
 
-} */
+}
+@media only screen and (max-width: 526px){
+.elem{
+  margin: 0 auto;
+}
+
+}
