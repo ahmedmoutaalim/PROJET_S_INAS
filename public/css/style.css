@@ -516,6 +516,10 @@ background-color: #E82530;
     transform: translateY(-10px);
 
   }
+  .menu ul li:hover .menu_list-exeption{
+    margin-left:0px;
+    
+    }
   .burger.active span{
     background-color: transparent;
 
