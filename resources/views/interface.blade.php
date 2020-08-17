@@ -6,7 +6,6 @@
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -14,9 +13,6 @@
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" style="height: 600px;" src="http://inastanger.ma/wp-content/uploads/2020/07/fittosize__705_0_6082e3ebdacb229f1031db1d5c13b28c_bild2.png" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" style="height: 600px;" src="https://inastanger.ma/wp-content/uploads/2020/07/07fabb9f-c481-411a-8e92-6dbb03ae7c0b-1.jpg" alt="Second slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -59,7 +55,7 @@
                                             L’INAS s’appuie également sur une diversité de perspectives théoriques et méthodologiques, ainsi que sur les savoirs issus des pratiques professionnelles.</P>
       </div>
   </div>
-    <div class="d-flex justify-content-between  flex-wrap w-100">
+    <div class="d-flex justify-content-between  flex-wrap w-100 mt-4">
       <img  class="p-2 elem"  src="http://inastanger.ma/wp-content/uploads/2020/07/srceen100720.png"  alt="img1">
       <img class="p-2 elem"  src="http://inastanger.ma/wp-content/uploads/2020/07/unnamed-03072020.png"  alt="img2">
       <img class="p-2 elem"   src="http://inastanger.ma/wp-content/uploads/2020/07/srceen100720.png"  alt="img1">
@@ -67,14 +63,45 @@
     </div>
     <div >
 
-      <h1> LIENS UTILES</h1>
-      <div class="d-flex justify-content-between  flex-wrap w-100">
-      <img  class="p-2 elem" width="150" height="80" src="http://inastanger.ma/wp-content/uploads/2020/07/e-chiqayasite.png" alt="">
-      <img   class="p-2 elem"  width="150" height="80" src="http://inastanger.ma/wp-content/uploads/2020/07/visuel-4_1.jpg" alt="">
-      <img  class="p-2 elem" width="150" height="80"  src="http://inastanger.ma/wp-content/uploads/2020/07/visuel-4_1.jpg" alt="">
-      <img  class="p-2 elem" width="150" height="80"   src="http://inastanger.ma/wp-content/uploads/2020/07/visuel-4_1.jpg" alt="">
-      <img  width="150" height="80" class="p-2 elem" src="http://inastanger.ma/wp-content/uploads/2020/07/img1arcampagne.jpg" alt="">
-      <img  width="150" height="80" class="p-2 elem" src="http://inastanger.ma/wp-content/uploads/2020/07/img1arcampagne.jpg" alt="">
+      <h1 class="textgr"> LIENS UTILES</h1>
+      <div class="items-utiles">
+        <ul>
+          <li class="slide-item">
+            <a href="https://www.entraide.ma/ar/">
+              <img src="https://inastanger.ma/wp-content/uploads/2020/07/TA3AWON.jpg" alt="">
+            </a>
+          </li>
+          <li class="slide-item">
+            <a href="http://www.social.gov.ma/">
+              <img src="https://inastanger.ma/wp-content/uploads/2020/07/WIZARA.jpg" alt="">
+            </a>
+          </li>
+          <li class="slide-item">
+            <a href="https://ads.ma/ar">
+              <img src="https://inastanger.ma/wp-content/uploads/2020/07/وكالة-التنمية-الاجتماعيى.jpg" alt="">
+            </a>
+          </li>
+          <li class="slide-item">
+            <a href="https://pw.men.gov.ma/Ar/Pages/Accueil.aspx">
+              <img src="https://inastanger.ma/wp-content/uploads/2020/07/FDSFD.jpg" alt="">
+            </a>
+          </li>
+          <li class="slide-item">
+            <a href="http://www.service-public.ma/web/guest/home">
+              <img src="https://inastanger.ma/wp-content/uploads/2020/07/Capture-copieFDSGFD.jpg" alt="">
+            </a>
+          </li>
+          <li class="slide-item">
+            <a href="http://www.service-public.ma/">
+              <img src="https://inastanger.ma/wp-content/uploads/2020/07/SERVICES.jpg" alt="">
+            </a>
+          </li>
+          <li class="slide-item">
+            <a href="http://fm6education.ma/portal/">
+              <img src="https://inastanger.ma/wp-content/uploads/2020/07/FDSFDFGD.jpg" alt="">
+            </a>
+          </li>
+        </ul>
       </div>
 
 
