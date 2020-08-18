@@ -13,9 +13,16 @@ class filiereController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index($filieres)
     {
-        //
+        // $filiere = new Filiere([
+
+        // $filieres = DB::select('select * from filieres where id_filiere = ?'),
+        // ]);
+        // $filiere->save();
+        // return view('etudiants.create', ['filieres' => $filieres]); //
+       
+
     }
 
     /**
@@ -25,7 +32,7 @@ class filiereController extends Controller
      */
     public function create()
     {
-        return view('etudiants.create');  //
+        // return view('etudiants.create');  //
     }
 
     /**
@@ -36,15 +43,15 @@ class filiereController extends Controller
      */
     public function store(Request $request)
     {
-        $filiere = new Filiere([
+        // $filiere = new Filiere([
            
-            'filiére_etudiant'=> $request->get('filiére_etudiant'),
+        //     'filiére_etudiant'=> $request->get('filiére_etudiant'),
       
     
-        ]);
+        // ]);
 
-        $filiere ->save();
-        return redirect('/etudiants/create');//
+        // $filiere ->save();
+        // return redirect('/etudiants/create');//
     }
 
     /**
@@ -66,7 +73,7 @@ class filiereController extends Controller
      */
     public function edit($id)
     {
-        //
+       
     }
 
     /**

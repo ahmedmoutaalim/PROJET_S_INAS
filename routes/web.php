@@ -62,15 +62,18 @@ Route::get('/inas-en-chiffres', function () {
 
 Route::resource('admission', 'admissionController');
 
-
 Route::resource('etudiants', 'etudiantController');
 
-Route::resource('etudiants', 'filiereController');
+Route::post('/etudiants', function () {
+    return view('imprimation');
+        
+});
+// Route::resource('etudiants', 'filiereController');
 
 
 // Route::post('/etudiants', 'admissionController@save')->name('etudiants');
 
 
-// Auth::routes();
+Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

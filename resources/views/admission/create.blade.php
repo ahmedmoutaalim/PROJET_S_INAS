@@ -45,7 +45,7 @@
         @csrf
         <div class="form-group">
           <label for="exampleInputEmail1">Code Massar : رقم مسار</label>
-          <input type="text"  class="form-control" placeholder="k111111111" Pattern = "([A-Z]{1}\d{9})|([a-z]{1}\d{9})" name="code_massar" id="exampleInputEmail1" aria-describedby="emailHelp" required>       
+          <input type="text"  class="form-control" placeholder="k111111111" Pattern = "([A-Z]{1}\d{9})|([a-z]{1}\d{9})" name="code_massar" id="exampleInputEmail1" autocomplete="off" aria-describedby="emailHelp" required>       
         </div>
 
         <div>

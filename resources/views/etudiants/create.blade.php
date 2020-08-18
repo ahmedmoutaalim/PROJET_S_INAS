@@ -67,20 +67,31 @@
 <div class="form-row">
     <div class="col-md-6 mb-3">
         <label for="">adresse : </label>
-        <input name="adresse_etudiant" type="text" class="form-control"  required>
+        <input name="adresse_etudiant" type="text" class="form-control" autocomplete="off" required>
+     
     </div>    
    
     <div class="col-md-6 mb-3">
         <label for="lieu">filiére : </label>
-       
         <select name="filiére_etudiant" style="height: 38px" class="custom-select custom-select-sm">
-            <option  selected> </option>
-            <option value="1">Conseiller Social</option>
-            <option value="2">Gestionnaire en affaires sociales</option>
-          
+            <option value="Conseiller Social"selected>Conseiller Social</option>
+            <option value="Gestionnaire en affaires sociales">Gestionnaire en affaires sociales</option>
           </select>
     </div>
-</div>    
+  
+</div>   
+
+{{-- <p>Click the button to print the current page.</p>
+ 
+<button onclick="myFunction()">Print this page</button>
+ 
+<script>
+function myFunction() {
+    window.print();
+}
+</script>  --}}
+
+
   {{-- <div class="form-group">
       <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" required>
