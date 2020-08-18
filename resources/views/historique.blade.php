@@ -3,8 +3,8 @@
 @section('accueil')
 <div  style="background-color:red;      background-image: url(http://inastanger.ma/wp-content/uploads/2020/07/fdcgfd.jpg)" >
     <div class="row p-5 w-100" style="color: whitesmoke;">
-        <h1 class="col font-weight-bold">Historique</h1>
-        <div class="col pt-3 text-center font-weight-bold"><p><a href="/" style="color: #d7ccc8;"> Accueil ></a> Historique</p></div>
+        <h1 class="col font-weight-bold head_let">Historique</h1>
+        <div class="col pt-3 text-center font-weight-bold "><p><a href="/" style="color: #d7ccc8;"> Accueil ></a> Historique</p></div>
     </div>
 </div>
 <div class="m-5 " style="color: #757575;width:80%; line-height: 30px; letter-spacing: .01em; ">
