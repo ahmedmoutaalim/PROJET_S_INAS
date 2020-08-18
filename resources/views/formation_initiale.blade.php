@@ -139,7 +139,7 @@
       data-parent="#accordionEx2">
       <p style=" font-weight:990; color:#FF0000;">Objectif du parcours animation sociale</p>
 
-      <p style="liste color:#757575;">La spécialisation en « Animation sociale » a   pour objectif de produire des profils contribuant à:</p>
+      <p style="color:black;">La spécialisation en « Animation sociale » a   pour objectif de produire des profils contribuant à:</p>
       <ul>
         <li>-La mobilisation et implication active des populations et des individus;</li>
         <li>-Développement de la relation sociale, l’insertion sociale et le maintien de l’autonomie de la personne.</li>
@@ -149,7 +149,7 @@
         </li>
       </ul>
 
-      <p style="font-weight:990; liste color:#757575;">Organisation modulaire du parcours animation social</p>
+      <p style="font-weight:990;color:#757575;">Organisation modulaire du parcours animation social</p>
       
 <div class="row">
   <div class="col-4">
@@ -200,7 +200,7 @@
 
 
 
-<div style="margin:20px 200px 20px 20px;box-shadow:none; class="card">
+<div style="margin:20px 200px 20px 20px;box-shadow:none; " class="card">
 
     <!-- Card header -->
     <div class="card-header z-depth-1 teal lighten-2" role="tab" id="heading12">
