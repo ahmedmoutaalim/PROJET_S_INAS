@@ -21,9 +21,9 @@
      
 </div>
 
-<h2>étape de validation </h2>
+<h2 class="ctr">étape de validation </h2>
 
-  @if(count($errors)>0)
+  {{-- @if(count($errors)>0)
   <div style="margin-top: 20px" >
     <ul>
       @foreach ($errors->all() as $error)
@@ -32,8 +32,8 @@
           
       @endforeach
     </ul>
-  </div>
-  @endif
+  </div> --}}
+  {{-- @endif --}}
   {{-- @if(\success::has('success'))
   <div> 
 
@@ -41,7 +41,7 @@
   </div>
       
   @endif --}}
-<form action="{{url('admission')}}" method="POST" style="margin:50px;">
+<form action="{{url('admission')}}" method="POST" style="margin:50px;" class="p-etape">
         @csrf
         <div class="form-group">
           <label for="exampleInputEmail1">Code Massar : رقم مسار</label>
@@ -63,7 +63,7 @@
         </div>
         
 
-        <input class="btn btn-secondary my-2 my-sm-0 "  type="submit"  value="suivant">
+        <input class="btn btn-secondary my-2 my-sm-0 suite "  type="submit"  value="suivant">
       </form>
     
 </body>

@@ -64,10 +64,13 @@ Route::resource('admission', 'admissionController');
 
 Route::resource('etudiants', 'etudiantController');
 
-Route::post('/etudiants', function () {
-    return view('imprimation');
+
+// Route::post('/etudiants', function () {
+//     return view('imprimation');
         
-});
+// });
+
+
 // Route::resource('etudiants', 'filiereController');
 
 

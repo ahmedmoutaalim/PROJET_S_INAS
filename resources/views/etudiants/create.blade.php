@@ -10,7 +10,7 @@
     </div>
 </div>
 
-<h2>étape information </h2>
+<h2 class="ctr">étape information </h2>
 <form action="{{url('etudiants')}}"  method="POST" " style=" margin:50px;">
     @csrf
   <div class="form-row">
@@ -90,7 +90,6 @@ function myFunction() {
     window.print();
 }
 </script>  --}}
-
 
   {{-- <div class="form-group">
       <div class="form-check">

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Etudiant;
 
 
+
 class etudiantController extends Controller
 {
     /**
@@ -52,11 +53,15 @@ class etudiantController extends Controller
             'etablissement'=> $request->get('etablissement'),
             'adresse_etudiant'=> $request->get('adresse_etudiant'),
             'filiére_etudiant'=> $request->get('filiére_etudiant'),
+           
             
 
         ]);
+ 
+         
         $etudiant->save();
-        return redirect('/imprimation');
+        
+        return view('imprimation');
 
   //
     }
