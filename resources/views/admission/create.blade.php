@@ -41,7 +41,7 @@
   </div>
       
   @endif --}}
-<form action="{{url('etudiants')}}" method="POST" style="margin:50px;" class="p-etape">
+<form action="{{url('admission')}}" method="POST" style="margin:50px;" class="p-etape">
 
         @csrf
         <h2 class="ctr">étape de validation </h2>
