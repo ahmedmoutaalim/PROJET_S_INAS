@@ -10,9 +10,10 @@
     </div>
 </div>
 
-<h2 class="ctr">étape information </h2>
-<form action="{{url('etudiants')}}"  method="POST" " style=" margin:50px;">
+
+<form class="p-etape" action="{{url('etudiants')}}"  method="POST" " style=" margin:50px;">
     @csrf
+    <h2 class="ctr">étape information </h2>
   <div class="form-row">
       <div class="col-md-4 mb-3">
           <label for="prenom">Prénom : </label>
@@ -98,7 +99,7 @@ function myFunction() {
         <div class="invalid-feedback">Vous devez accepter les CGU pour continuer</div>
       </div>
   </div> --}}
-  <input class="btn btn-secondary my-2 my-sm-0 "  type="submit"  value="valider">
+  <input class="btn btn-secondary my-2 suite"  type="submit"  value="valider">
 </form>
 
 

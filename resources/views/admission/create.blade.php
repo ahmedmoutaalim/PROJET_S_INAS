@@ -21,7 +21,7 @@
      
 </div>
 
-<h2 class="ctr">étape de validation </h2>
+
 
   {{-- @if(count($errors)>0)
   <div style="margin-top: 20px" >
@@ -41,8 +41,10 @@
   </div>
       
   @endif --}}
-<form action="{{url('admission')}}" method="POST" style="margin:50px;" class="p-etape">
+<form action="{{url('etudiants')}}" method="POST" style="margin:50px;" class="p-etape">
+
         @csrf
+        <h2 class="ctr">étape de validation </h2>
         <div class="form-group">
           <label for="exampleInputEmail1">Code Massar : رقم مسار</label>
           <input type="text"  class="form-control" placeholder="k111111111" Pattern = "([A-Z]{1}\d{9})|([a-z]{1}\d{9})" name="code_massar" id="exampleInputEmail1" autocomplete="off" aria-describedby="emailHelp" required>       
@@ -63,7 +65,7 @@
         </div>
         
 
-        <input class="btn btn-secondary my-2 my-sm-0 suite "  type="submit"  value="suivant">
+        <input class="btn btn-secondary my-2 my-sm-0 suite"  type="submit"  value="suivant">
       </form>
     
 </body>
