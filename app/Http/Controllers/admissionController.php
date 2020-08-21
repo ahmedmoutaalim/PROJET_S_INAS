@@ -42,11 +42,11 @@ class admissionController extends Controller
     {
         
         //----request Admission-----!!
-        $this->validate($request ,[
-           'code_massar'=> 'required',
-           'date_naissance'=>'required',
-           'creation_password'=>'required'
-        ]);
+        // $this->validate($request ,[
+        //    'code_massar'=> 'required',
+        //    'date_naissance'=>'required',
+        //    'creation_password'=>'required'
+        // ]);
         $admission = new Admission([
           'code_massar' => $request->get('code_massar'),
           'date_naissance'=> $request->get('date_naissance'),

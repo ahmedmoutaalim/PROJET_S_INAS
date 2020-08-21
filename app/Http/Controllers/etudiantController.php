@@ -58,7 +58,6 @@ class etudiantController extends Controller
 
         ]);
         $etudiant->save();
-        
         return view('imprimation');
 
   //

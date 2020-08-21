@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>INAS</title>
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/css.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css')}}">
   
 
  
@@ -155,23 +155,16 @@
     <div class="row">
 
       <!-- Grid column -->
-      <div class="col-md-4 mx-auto " >
-
-        <!-- Content -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 "></h5>
-        <p id="contact" >Tél : 05399-40796 Email : </p>
-        <p>contact@inas.social.gov.ma</p>
-
-      </div>
+  
       <!-- Grid column -->
 
       <hr class="clearfix w-100 d-md-none">
 
       <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
+      <div class="col-md-2 mx-auto ">
 
         <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">PRESENTATION DE L’INAS</h5>
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 ">PRESENTATION DE L’INAS</h5>
 
         <ul class="list-unstyled ">
         <li>
@@ -194,7 +187,7 @@
       <hr class="clearfix w-100 d-md-none">
 
       <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
+      <div class="col-md-2 mx-auto width">
 
         <!-- Links -->
         <h5 class="font-weight-bold text-uppercase mt-3 mb-4 ">FORMATION </h5>
@@ -229,7 +222,7 @@
       <hr class="clearfix w-100 d-md-none">
 
       <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
+      <div class="col-md-2 mx-auto width">
 
 
 
@@ -274,6 +267,16 @@
         </ul>
 
       </div>
+      <div class="col-md-2 mx-auto width">
+
+
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 ">contact</h5>
+        <p >Tél : 05399-40796 Email : </p>
+        <p>contact@inas.social.gov.ma</p>
+
+      </div>
       <!-- Grid column -->
 
     </div>
@@ -286,11 +289,11 @@
 
   <!-- Call to action -->
   <ul class="list-unstyled list-inline text-center py-2">
-    <li class="list-inline-item">
-      <h5 class="mb-1">Register for free</h5>
+    <li class="list-inline-item margin">
+      <h5 class="mb-1 ">ACCÉDER À LA PRÉINSCRIPTION</h5>
     </li>
     <li class="list-inline-item">
-      <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+      <a href="#!" class="btn btn-danger btn-rounded">PRÉINSCRIPTION</a>
     </li>
   </ul>
   <!-- Call to action -->
@@ -331,7 +334,7 @@
   <div class="footer-copyright text-center py-3">© 2020 Institut National de l'Action Sociale 
         (INAS) | Ministère de la solidarité de la femme 
         de la famille et du développement social au Maroc
-    <a id="click"> inastanger.com</a>
+    <a > inastanger.com</a>
   </div>
   <!-- Copyright -->
 
