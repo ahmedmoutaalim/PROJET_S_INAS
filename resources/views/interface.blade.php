@@ -29,7 +29,7 @@
 @section('présontation')
 <div class="inter">
       <div>
-          <h1>PRÉSENTATION DE L’INAS</h1> <br>
+          <h1 class="textgr">PRÉSENTATION DE L’INAS</h1> <br>
             <p>L’Institut National de l’Action Sociale est un établissement 
                                             d’enseignement supérieur ne relevant pas des universités,
                                             crée en 1981 par l’autorité gouvernementale chargée des
@@ -44,7 +44,7 @@
       </div>
 
       <div>
-            <h1>Mot de la Directrice de l’INAS</h1> <br>
+            <h1  class="textgr">Mot de la Directrice de l’INAS</h1> <br>
               <P>
                                             Actuellement, le domaine du travail social est en plein essor, et en perpétuelle évolution, ce qui en fait un choix de formation convoité par les professionnels en devenir. <br> 
 

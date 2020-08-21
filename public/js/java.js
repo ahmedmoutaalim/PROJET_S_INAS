@@ -3,7 +3,7 @@
 
 
 // });
-console.log('hi');
+// console.log('hi');
 
 const burger = document.querySelector('.burger');
 const menu = document.querySelector('.menu');
@@ -14,8 +14,11 @@ burger.addEventListener('click', () =>{
     menu.classList.toggle('show');
 });
 
-
-
+// ---------------------------line lift
+const line = document.querySelector('.menu_list-parentlist');
+line.addEventListener('click', ()=>{
+    line.classList.add("newline");
+})
 //----------------confirmation password
 
 var password = document.getElementById("password")
@@ -31,11 +34,3 @@ function validatePassword(){
 
 password.onchange = validatePassword;
 confirm_password.onkeyup = validatePassword;
-
-
-
-
-
-
-
-

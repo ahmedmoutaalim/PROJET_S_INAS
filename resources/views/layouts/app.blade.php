@@ -35,7 +35,7 @@
   <div class="menu">
   
   <ul class="list">
-    <li class="menu_list"> <a href="{{url('interface')}}" class="menu_list-accueil">ACCUEIL</a> </li>
+    <li class="menu_list"> <a href="{{url('interface')}}" id="line_left" class="menu_list-accueil">ACCUEIL</a> </li>
     <li class="menu_list"> <a href="#" class="menu_list-parentlist">PRESENTATION DE L’INAS</a>
         <div class="menu_list-childlist">
           <ul>
@@ -63,7 +63,7 @@
 </div>
 
     </li>
-    <li class="menu_list"> <a href="#" class="menu_list-parentlist"">ACTUALITES</a>
+    <li class="menu_list"> <a href="#" class="menu_list-parentlist">ACTUALITES</a>
       <div class="menu_list-childlist" >
         <ul>
           <li><a href="#">AGENDA</a> </li>
@@ -341,8 +341,6 @@
  
 
 </footer>
-
-     
      <script src="{{ asset('js/java.js')}}"></script> 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
