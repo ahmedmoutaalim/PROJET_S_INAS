@@ -293,7 +293,7 @@
       <h5 class="mb-1 ">ACCÉDER À LA PRÉINSCRIPTION</h5>
     </li>
     <li class="list-inline-item">
-      <a href="#!" class="btn btn-danger btn-rounded">PRÉINSCRIPTION</a>
+      <a href="{{url('admission/create')}}" class="btn btn-danger btn-rounded">PRÉINSCRIPTION</a>
     </li>
   </ul>
   <!-- Call to action -->
