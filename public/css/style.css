@@ -372,8 +372,21 @@ color:#333333;
 .mode{
   background-color: #333;
 }
-
-
+/* new */
+footer.page-footer {
+  bottom: 0;
+  color: #fff;
+}
+.font-small {
+  font-size: .9rem;
+}
+.stylish-color-dark {
+  background-color: #3e4551 !important;
+}
+.footer_links-hover{
+  color: white;
+}
+/*  */
 /* FOOTER */
 
 /* 
