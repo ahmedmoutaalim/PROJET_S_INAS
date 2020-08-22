@@ -115,7 +115,7 @@
   <li class="menu_list"> <a href="#" class="menu_list-parentlist">ESPACE ENSEIGNANT</a> 
     <div class="menu_list-childlist" >
       <ul>
-        <li><a href="home">Accès Elearning</a> </li>
+        <li><a href="../home">Accès Elearning</a> </li>
       </ul>
     </div>
   </li>
@@ -155,67 +155,67 @@
 
 <form class="p-etape" action="{{url('etudiants')}}"  method="POST" " style=" margin:50px;">
     @csrf
-    <h2 class="ctr">étape information </h2>
+    <h2 class="ctr">Information </h2>
   <div class="form-row">
       <div class="col-md-4 mb-3">
-          <label for="prenom">Prénom : </label>
+          <label for="prenom">Prénom : الاسم الاول</label>
           <input name="nom_etudiant" type="text" class="form-control"  required >
           
       </div>
       <div class="col-md-4 mb-3">
-          <label for="nom">Nom de famille :</label>
+          <label for="nom">Nom de famille : إسم العائلة</label>
           <input name="prenom_etudiant" type="text" class="form-control"  required>
           
       </div>
       <div class="col-md-4 mb-3">
-          <label for="lieu">lieu de naissance : </label>
+          <label for="lieu">Lieu de naissance : مكان الولادة</label>
           <input name="lieu_naissance" type="text" class="form-control"  required>
         
       </div>
   </div>
   <div class="form-row">
       <div class="col-md-6 mb-3">
-          <label for="email">adresse email : </label>
+          <label for="email">Adresse email : البريد الإلكتروني</label>
           <input name="adresse_email" type="email" class="form-control"  required>
       
       </div>
       <div class="col-md-3 mb-3">
-          <label for="num">numero telephone : </label>
+          <label for="num">numero telephone : رقم الهاتف</label>
           <input name="numero_telephone" type="tel" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" class="form-control"required>
         
       </div>
       <div class="col-md-3 mb-3">
-          <label for="cp">annee bac : </label>
+          <label for="cp">Année bac : سنة البكالوريا</label>
           <input name="annee_bac" max="2020" min="2016" type="number" class="form-control"  required>
         
       </div>
   </div>
   <div class="form-row">
     <div class="col-md-4 mb-3">
-        <label for="sec">section bac : </label>
+        <label for="sec">Section bac : قسم البكالوريا</label>
         <input name="section_bac" type="text" class="form-control"  required>
    
     </div>
     <div class="col-md-4 mb-3">
-        <label for="nom">ville étudiant :</label>
+        <label for="nom">Ville étudiant : مدينة الطلاب</label>
         <input name="ville_etudiant" type="text" class="form-control"  required>
        
     </div>
     <div class="col-md-4 mb-3">
-        <label for="lieu">établissenment : </label>
+        <label for="lieu">Etablissenment : المؤسسة</label>
         <input name="etablissement" type="text" class="form-control"  required>
     
     </div>
 </div>
 <div class="form-row">
     <div class="col-md-6 mb-3">
-        <label for="">adresse : </label>
+        <label for="">Adresse : العنوان</label>
         <input name="adresse_etudiant" type="text" class="form-control" autocomplete="off" required>
      
     </div>    
    
     <div class="col-md-6 mb-3">
-        <label for="lieu">filiére : </label>
+        <label for="lieu">Filiére : الشعبة</label>
         <select name="filiére_etudiant" style="height: 38px" class="custom-select custom-select-sm">
             <option value="Conseiller Social"selected>Conseiller Social</option>
             <option value="Gestionnaire en affaires sociales">Gestionnaire en affaires sociales</option>
