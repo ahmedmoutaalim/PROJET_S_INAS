@@ -45,7 +45,7 @@
 
       <div>
             <h1  class="textgr">Mot de la Directrice de l’INAS</h1> <br>
-              <P>
+              <P class="cnt">
                                             Actuellement, le domaine du travail social est en plein essor, et en perpétuelle évolution, ce qui en fait un choix de formation convoité par les professionnels en devenir. <br> 
 
                                             Dans ce sens, l’Institut National de l’Action Sociale contribue à la formation de personnes  compétentes et réflexives, dotées d’un sens critique et éthique aiguisé qui deviendront des acteurs de changement pour le mieux-être des personnes. <br> 
@@ -55,6 +55,7 @@
                                             L’INAS s’appuie également sur une diversité de perspectives théoriques et méthodologiques, ainsi que sur les savoirs issus des pratiques professionnelles.</P>
       </div>
   </div>
+  <h1 class="textgr"> Services du ministère</h1>
     <div class="d-flex justify-content-between  flex-wrap w-100 mt-4">
       <img  class="p-2 elem"  src="http://inastanger.ma/wp-content/uploads/2020/07/srceen100720.png"  alt="img1">
       <img class="p-2 elem"  src="http://inastanger.ma/wp-content/uploads/2020/07/unnamed-03072020.png"  alt="img2">

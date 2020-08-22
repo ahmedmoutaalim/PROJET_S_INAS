@@ -15,7 +15,7 @@
     <div>
         <p><strong>1981 –></strong> Création de l’Institut National de l’Action Sociale</p>
         <p><span class="font-weight-bold">1985 –></span> Décret n ° 2-84-30 relatif à la création et à l’organisation de l’Institut national de l’action sociale.</p>
-        <p><span class="font-weight-bold"> 1997 –></span> Décret n ° 2.95.725, complétant le décret n ° 2-84-30, relatif au deuxième cycle.</p>
+        <p><span class="font-weight-bold">1997 –></span> Décret n ° 2.95.725, complétant le décret n ° 2-84-30, relatif au deuxième cycle.</p>
         <p><span class="font-weight-bold">2005 –></span> La mise en œuvre de la formation en 2ème cycle.</p>
         <p><span class="font-weight-bold">2016 –></span> Décret n ° 2.15.661 relatif à la définition de la liste des établissements d’enseignement supérieur ne relevant pas des universités, et complétant le décret n ° 2.03.201.</p>
         <p><span class="font-weight-bold">2016 –></span> Décret n ° 2.15.449 concernant la réorganisation de l’Institut national de l’action sociale.</p>

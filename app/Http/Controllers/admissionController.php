@@ -54,7 +54,7 @@ class admissionController extends Controller
           'time_insert'=> $request->get('time_insert') 
         ]);
         $admission->save();
-        return view('/etudiants/create');
+        return redirect('etudiants/create');
 
 
 
