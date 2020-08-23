@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>INAS</title>
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/css.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css')}}">
   
 
  
@@ -145,7 +145,7 @@
   <div  style="background-color:red;      background-image: url(http://inastanger.ma/wp-content/uploads/2020/07/fdcgfd.jpg)" >
     <div class="row p-5 w-100" style="color: whitesmoke;">
         <h1 class="col font-weight-bold">Préinscription en ligne</h1>
-        <div class="col pt-3 text-center font-weight-bold "><p><a href="home" style="color: #d7ccc8; "> Accueil ></a> Préinscription en ligne</p></div>
+        <div class="col pt-3 text-center font-weight-bold "><p><a href="home" class="opacity" "> Accueil ></a> Préinscription en ligne</p></div>
     </div>
      
 </div>

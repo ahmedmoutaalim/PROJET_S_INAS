@@ -810,6 +810,8 @@ background-color: #E82530;
     margin-left: 18px;
     
   }
+
+
 }
 @media only screen and (max-width: 795px){
   .items-utiles ul {
@@ -860,6 +862,8 @@ background-color: #E82530;
   .nv{
     height: 100%;
   }
+
+
   .carousel-item img, #carouselExampleIndicators, .carousel-inner, .carousel-control-prev, .carousel-control-next{
     height: 70vh;
   }
@@ -926,12 +930,13 @@ font-size: small;
 
 .opacity{
   color: #d7ccc8; 
-   ;
+  text-decoration: none;
   
 }
 
 .opacity:hover{
   color: white;
   font-size:15.5px;
+  text-decoration: none;
 }
 
