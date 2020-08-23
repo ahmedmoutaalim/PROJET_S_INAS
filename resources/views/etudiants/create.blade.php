@@ -181,7 +181,7 @@
       </div>
       <div class="col-md-3 mb-3">
           <label for="num">numero telephone : رقم الهاتف</label>
-          <input name="numero_telephone" type="tel" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" class="form-control"required>
+          <input name="numero_telephone" type="tel" pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" class="form-control"required>
         
       </div>
       <div class="col-md-3 mb-3">

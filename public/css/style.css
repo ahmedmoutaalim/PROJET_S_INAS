@@ -922,3 +922,16 @@ font-size: small;
   text-decoration:none;
   
 }
+
+
+.opacity{
+  color: #d7ccc8; 
+   ;
+  
+}
+
+.opacity:hover{
+  color: white;
+  font-size:15.5px;
+}
+

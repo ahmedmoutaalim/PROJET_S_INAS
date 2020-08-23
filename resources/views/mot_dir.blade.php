@@ -4,7 +4,7 @@
 <div  style="background-color:red;      background-image: url(http://inastanger.ma/wp-content/uploads/2020/07/fdcgfd.jpg)" >
     <div class="row p-5 w-100 head_let" style="color: whitesmoke;">
         <h1 class="col font-weight-bold">Mot de la Directrice de L'INAS</h1>
-        <div class="col pt-3 text-center font-weight-bold subtet"><p><a href="/"> Accueil ></a> Mot de la Directrice de L'INAS</p></div>
+        <div class="col pt-3 text-center font-weight-bold subtet"><p><a href="/" class="opacity"> Accueil ></a> Mot de la Directrice de L'INAS</p></div>
     </div>
 </div>
 <div class="m-4 " style="color: #757575;width:80%; line-height: 30px; letter-spacing: .01em; ">
