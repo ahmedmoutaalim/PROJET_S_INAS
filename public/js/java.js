@@ -15,9 +15,11 @@ burger.addEventListener('click', () =>{
 });
 
 // ---------------------------line lift
-const line = document.querySelector('.menu_list-parentlist');
-line.addEventListener('click', ()=>{
-    line.classList.add("newline");
+const head = document.querySelector('.menu_list-parentlist');
+const accueil = document.querySelector('.menu_list-accueil');
+head.addEventListener('click', () => {
+  head.classList.add("mystyle");
+  accueil.classList.add("menu_list-inter");
 })
 //----------------confirmation password
 
