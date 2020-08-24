@@ -35,7 +35,7 @@
   <div class="menu">
   
   <ul class="list">
-    <li class="menu_list"> <a href="{{url('interface')}}" class="menu_list-accueil">ACCUEIL</a> </li>
+    <li class="menu_list menu_list-acc"> <a href="{{url('interface')}}" class="menu_list-accueil menu_list-inter">ACCUEIL</a> </li>
     <li class="menu_list"> <a href="#" class="menu_list-parentlist">PRESENTATION DE L’INAS</a>
         <div class="menu_list-childlist">
           <ul>
