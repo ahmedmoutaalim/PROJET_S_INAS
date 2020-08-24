@@ -145,7 +145,7 @@
   <div  style="background-color:red;      background-image: url(http://inastanger.ma/wp-content/uploads/2020/07/fdcgfd.jpg)" >
     <div class="row p-5 w-100" style="color: whitesmoke;">
         <h1 class="col font-weight-bold">Préinscription en ligne</h1>
-        <div class="col pt-3 text-center font-weight-bold "><p><a href="home" class="opacity" "> Accueil ></a> Préinscription en ligne</p></div>
+        <div class="col pt-3 text-center font-weight-bold "><p><a href="../interface" class="opacity" "> Accueil ></a> Préinscription en ligne</p></div>
     </div>
      
 </div>

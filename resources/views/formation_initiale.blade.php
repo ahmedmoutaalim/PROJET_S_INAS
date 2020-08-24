@@ -164,7 +164,7 @@
     <div class="tab-content" id="nav-tabContent">
       <div class="tab-pane fade show active" id="E" role="tabpanel" aria-labelledby="list-home-list">
       <ul class="list-group list-group-flush">
-  <li class="list-group-item">1	M27 : Animation sociale et médiation/li>
+  <li class="list-group-item">1	M27 : Animation sociale et médiation</li>
   <li class="list-group-item">2	M28 : Management de l’animation sociale</li>
   <li class="list-group-item">3	M29 : Planification et gestion de projets d’animation sociale</li>
   <li class="list-group-item">4	M30 : Informatique et langues</li>
