@@ -173,7 +173,7 @@
 <form action="{{url('admission')}}" method="POST" style="margin:50px;" class="p-etape">
 
         @csrf
-        <h2 class="ctr"> Admission </h2>
+        <h2 class="ctr">Étape Admission </h2>
         <div class="form-group">
           <label for="exampleInputEmail1">Code Massar : رقم مسار</label>
           <input type="text"  class="form-control" placeholder="k111111111" Pattern = "([A-Z]{1}\d{9})|([a-z]{1}\d{9})" name="code_massar" id="exampleInputEmail1" autocomplete="off" aria-describedby="emailHelp" required>       

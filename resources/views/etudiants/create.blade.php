@@ -155,7 +155,7 @@
 
 <form class="p-etape" action="{{url('etudiants')}}"  method="POST" " style=" margin:50px;">
     @csrf
-    <h2 class="ctr">Information </h2>
+    <h2 class="ctr">Étape Information </h2>
   <div class="form-row">
       <div class="col-md-4 mb-3">
           <label for="prenom">Prénom : الاسم الاول</label>
